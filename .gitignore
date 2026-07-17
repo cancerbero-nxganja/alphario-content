@@ -1,0 +1,5 @@
+analytics/credentials-private.json
+*.env
+.env*
+secrets/
+private/
