@@ -1,0 +1,29 @@
+{
+  "last_updated": "2026-07-16",
+  "day": 1,
+  "revenue_total_usd": 0,
+  "systems": {
+    "telegram": true,
+    "twitter": false,
+    "tiktok": false,
+    "instagram": false,
+    "youtube": false,
+    "beehiiv": false,
+    "elevenlabs": false
+  },
+  "agents": {
+    "scout": true,
+    "content_generator": true,
+    "publisher": true,
+    "analyst": true,
+    "strategist": true,
+    "eval": true,
+    "meme_boot": true
+  },
+  "accounts": {
+    "twitter_handle": "@AlpharionAI",
+    "tiktok_handle": "@AlpharionAI",
+    "instagram_handle": "@AlpharionTechnology",
+    "telegram_bot": "@AlpharionAI_bot"
+  }
+}
