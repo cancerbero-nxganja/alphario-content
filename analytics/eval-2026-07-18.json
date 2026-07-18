@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-18",
+  "pieces_evaluated": 3,
+  "approved": 2,
+  "rewritten_and_approved": 1,
+  "needs_human": 0,
+  "failed_legal": 0,
+  "average_score": 88,
+  "highest_score": 95,
+  "lowest_score": 82,
+  "results": [
+    {
+      "file": "2026-07-18-twitter.md",
+      "platform": "twitter",
+      "pillar": 1,
+      "scores": {
+        "hook": 10,
+        "marley_arc": 10,
+        "character": 10,
+        "human_voice": 9,
+        "virality": 10,
+        "legal": 9,
+        "value": 8,
+        "cta": 9,
+        "meme_or_originality": 10,
+        "length": 10
+      },
+      "total": 95,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["human_voice", "legal", "value"],
+      "notes": "Near-perfect launch thread. Hook is exceptional — reversal of human/AI power dynamic lands immediately. 'Los números son la historia / La historia es el contenido / El contenido es el negocio' is the most quotable line of the batch. Kowalski tweet standalone is a high-engagement meme play. Tweet 15 controversy beat is bold and defensible. 15 tweets, right at format ceiling. No changes needed."
+    },
+    {
+      "file": "2026-07-18-tiktok.md",
+      "platform": "tiktok",
+      "pillar": 4,
+      "scores": {
+        "hook": 9,
+        "marley_arc": 10,
+        "character": 10,
+        "human_voice": 9,
+        "virality": 9,
+        "legal": 9,
+        "value": 7,
+        "cta": 8,
+        "meme_or_originality": 10,
+        "length": 10
+      },
+      "total": 91,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["value", "cta", "hook"],
+      "notes": "Excellent launch TikTok. Meme integration is textbook — Penguins Smile & Wave timed to the chaotic plan reveal, Kowalski for the zero-data beat, We Are Not The Same for the contrast with other creators. 65-second runtime is perfect. Disclaimer lands naturally as a character bit ('eso lo voy a repetir mucho'). No changes needed."
+    },
+    {
+      "file": "2026-07-18-newsletter.md",
+      "platform": "newsletter",
+      "pillar": 2,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 9,
+        "character": 9,
+        "human_voice": 8,
+        "virality": 8,
+        "legal": 9,
+        "value": 7,
+        "cta": 8,
+        "meme_or_originality": 8,
+        "length": 8
+      },
+      "total": 82,
+      "outcome": "REWRITTEN_APPROVED",
+      "weakest_criteria": ["value", "cta", "hook"],
+      "notes": "Pre-rewrite score: 78/100 (CTA=5, Virality=7). Post-rewrite score: 82/100. Rewrote the closing section: replaced weak 'follow on Instagram' with a quotable insight about the point of zero being the only part that can't be falsified, added share CTA with earned logic, gave the Instagram/newsletter CTA urgency by framing it as the reader getting first access when new platforms launch. Value remains 7 because this is an intro piece — acceptable for week zero."
+    }
+  ]
+}
