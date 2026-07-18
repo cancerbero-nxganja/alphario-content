@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-18",
+  "generated_by": "PetWhisper Brain v1.0",
+  "note": "All numeric values are PROJECTED — PetWhisper is in pre-launch phase",
+  "model_version": "v0.1-pre",
+  "dataset": {
+    "recordings_global": 142800,
+    "recordings_growth_rate": "3-5% daily (PROYECTADO)",
+    "new_recordings_today": 4600,
+    "species": [
+      "Perro / Dog",
+      "Gato / Cat",
+      "Ave / Bird",
+      "Conejo / Rabbit",
+      "Hamster",
+      "Cobaya / Guinea pig",
+      "Loro / Parrot",
+      "Caballo / Horse",
+      "Cerdo / Pig",
+      "Delfín / Dolphin (research collab, PROYECTADO)",
+      "Ballena / Whale (research collab, PROYECTADO)",
+      "Otros / Others"
+    ],
+    "species_count": 12,
+    "countries": 23,
+    "countries_list_sample": ["España", "México", "Argentina", "Brasil", "Colombia", "Chile", "Perú", "Estados Unidos", "Francia", "Alemania", "Japón", "India"],
+    "active_contributors": 8400
+  },
+  "model": {
+    "version": "v0.1-pre",
+    "status": "training_active",
+    "accuracy_note": "No published accuracy metrics — model is pre-validation",
+    "next_milestone": "v0.1 — pending dataset threshold"
+  },
+  "languages_active": ["es", "en", "pt"],
+  "languages_planned": ["fr", "de", "ja", "zh", "hi", "ar"],
+  "latest_finding": {
+    "title": "Hipótesis: Variación de patrón en ladrido de anticipación vs. angustia",
+    "status": "HIPÓTESIS — no confirmada",
+    "detail": "Observación preliminar de diferencias en frecuencia entre contextos de espera activa y abandono percibido. Requiere dataset mayor para análisis."
+  },
+  "alerta_mascota": {
+    "status": "spec_complete",
+    "active_cases": 0,
+    "active_cases_note": "PROYECTADO — feature no lanzado aún",
+    "projected_active_cases_at_launch": 150,
+    "projected_reunions_first_month": 45,
+    "always_free": true
+  },
+  "content_today": {
+    "pilar": "Adopcion",
+    "languages": ["es", "en", "pt"],
+    "platforms": ["tiktok", "instagram", "twitter", "facebook", "youtube"],
+    "featured_story": "Luna — 8 meses en refugio, perfil emocional IA"
+  },
+  "cycle": {
+    "count": 1,
+    "phase": "sound_analysis",
+    "alerta_mascota_phase": "building"
+  }
+}
