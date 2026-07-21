@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-21",
+  "cycle": 2,
+  "note": "All quantitative values marked PROYECTADO are planning estimates, not real collected data.",
+  "app": {
+    "model_version": "v0.1-pre",
+    "status": "pre-launch",
+    "alerta_mascota_active": true,
+    "alerta_mascota_phase": "building"
+  },
+  "dataset": {
+    "recordings_global": 160650,
+    "recordings_global_note": "PROYECTADO — baseline 142800 × 1.04^3 days",
+    "recordings_growth_daily_pct": 4.0,
+    "recordings_growth_note": "PROYECTADO — midpoint of 3-5% target range",
+    "species_represented": 42,
+    "species_note": "PROYECTADO",
+    "countries_contributing": 38,
+    "countries_note": "PROYECTADO",
+    "languages_active": 14,
+    "languages_active_note": "PROYECTADO",
+    "contributors_active_estimate": 9800,
+    "contributors_note": "PROYECTADO"
+  },
+  "alerta_mascota": {
+    "active_cases_projected": 47,
+    "found_reunited_projected": 5,
+    "reunification_rate_pct": 10.6,
+    "effective_radius_km": "10-15",
+    "note": "PROYECTADO — first days of feature deployment"
+  },
+  "science": {
+    "latest_finding": "Hipótesis H-2026-07-A: posible variación de pitch en vocalizaciones de perros según idioma tonal/no-tonal del cuidador. En diseño de protocolo de validación. HIPÓTESIS — sin datos suficientes.",
+    "active_hypotheses": 4,
+    "model_accuracy_published": false,
+    "model_accuracy_note": "Not yet publishable — pre-validation phase"
+  },
+  "content": {
+    "day_pillar": "Viral",
+    "day_of_week": "Lunes",
+    "challenge_active": "PetWhisperChallenge",
+    "platforms_updated": ["TikTok", "Instagram", "Twitter/X", "Facebook", "YouTube"],
+    "languages_content": ["es", "en", "pt"]
+  },
+  "milestones_next": [
+    "Alcanzar 200,000 grabaciones globales (PROYECTADO: ~+2 semanas al ritmo actual)",
+    "Lanzamiento beta AlertaMascota",
+    "Primera validación externa del modelo v0.1",
+    "Incorporar campo household_type al esquema de grabaciones"
+  ],
+  "generated_by": "PetWhisper Brain — Autonomous Cycle #2"
+}

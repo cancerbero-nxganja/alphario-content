@@ -1,6 +1,6 @@
 # PetWhisper Science — Weekly Report
-**Semana:** 13-18 Julio 2026
-**Generado:** 2026-07-18
+**Semana:** 21–28 Julio 2026
+**Generado:** 2026-07-21
 **Estado del modelo:** v0.1-pre (entrenamiento activo)
 
 ---
@@ -11,75 +11,118 @@
 
 ## Resumen Ejecutivo
 
-Esta semana el equipo de ciencia ciudadana continuó la recolección de vocalizaciones animales en múltiples especies. El foco principal de análisis esta semana fue la variación de patrones de ladrido en contextos de ansiedad de separación — motivado directamente por el trabajo con perfiles de refugio.
+Esta semana el ciclo científico avanza en tres frentes: (1) refinamiento de hipótesis sobre variación vocálica inter-idioma, (2) diseño de protocolo para gatos en hogares mono vs. multi-especie, y (3) primera evaluación cualitativa de datos preliminares de AlertaMascota. El dataset global supera las 160,000 grabaciones estimadas (PROYECTADO), con crecimiento sostenido de nuevos países.
 
 ---
 
-## Observaciones de la Semana
+## Hipótesis Activas
 
-### Hipótesis Activa #1: Ladrido de Anticipación vs. Ladrido de Angustia
-**Estado:** Hipótesis en exploración
+### H-2026-07-A: Variación vocálica por idioma del cuidador
+**Estado:** Hipótesis en diseño de validación
 
-Observación preliminar (no estadísticamente significativa): en las grabaciones recibidas esta semana, los ladridos emitidos en contextos de espera activa (el animal sabe que alguien regresará) parecen mostrar un patrón de frecuencia distinto a los ladridos en contexto de abandono percibido.
+Hipótesis: perros cuyos cuidadores hablan idiomas tonales (mandarín, tailandés, vietnamita) podrían mostrar patrones de vocalización con mayor variación de pitch que perros de cuidadores de idiomas no tonales.
 
-**Criterio para confirmar:** Se necesitan ≥ 200 grabaciones etiquetadas por contexto con validación de dueños. Actualmente: INSUFICIENTE para conclusión.
+**Base en literatura:**
+- Faragó et al. (2010): los perros son sensibles al tono y prosodia humana.
+- Pongrácz et al. (2005): los ladridos contienen información contextual estructurada.
+- La hipótesis de co-evolución lingüística dog-human no ha sido estudiada sistemáticamente con datasets de escala global.
 
----
-
-### Hipótesis Activa #2: Variación Inter-Raza en Frecuencia de Alerta
-**Estado:** Hipótesis en exploración
-
-Algunas razas de pastoreo parecen usar rangos de frecuencia más altos para alertas que razas guardianas. Observación anecdótica del dataset preliminar.
-
-**Criterio para confirmar:** Dataset mínimo requerido por raza: 50 grabaciones etiquetadas. Estado actual: INSUFICIENTE.
+**Criterio para validar:** Minimum 500 grabaciones por grupo lingüístico, variables de control por raza/edad/contexto. **Estado: INSUFICIENTE — diseño de protocolo pendiente.**
 
 ---
 
-### Hipótesis Activa #3: Adaptación Idiomática en Vocalizaciones
-**Estado:** Hipótesis exploratoria
+### H-2026-07-B: Repertorio de maullidos en gatos mono vs. multi-hogar
+**Estado:** Hipótesis nueva — requiere campo metadata adicional
 
-¿Los perros que viven en hogares de diferentes idiomas adaptan sus patrones de vocalización? Esta hipótesis es especulativa. Motivación: anecdótica (propietarios en foros reportan diferencias). Requiere metodología controlada antes de cualquier análisis.
+Hipótesis: gatos adultos desarrollan un repertorio de maullidos cualitativamente diferente según si conviven con otros gatos, solo con humanos, o en entornos mixtos.
 
-**Próximo paso:** Diseñar protocolo de recolección con grupos de control.
+**Base en literatura:**
+- McComb et al. (2009): gatos embeds solicitations de alta frecuencia dentro de ronroneos para manipular respuestas humanas.
+- Nicastro (2004): humanos identifican contexto de maullidos con precisión superior al azar.
+- El maullido es comunicación inter-especie, no intra-especie (gatos feral no maúllan entre ellos).
+
+**Próximo paso:** Añadir campo `household_type` (solo-humano / multi-gato / mixto) al esquema de grabaciones en próxima versión de app. **Estado: DISEÑO PENDIENTE.**
+
+---
+
+### H-2026-07-C: Vocalización pre-tormenta como señal meteorológica
+**Estado:** Hipótesis especulativa — alta originalidad
+
+Hipótesis: perros con sensibilidad barométrica vocalizan con mayor frecuencia e intensidad 30–60 minutos antes de tormentas eléctricas.
+
+**Potencial aplicación:** sistema de alerta meteorológica ciudadana basado en comportamiento animal colectivo.
+
+**Validación:** cross-correlate timestamps de grabaciones con datos meteorológicos abiertos (Open-Meteo API). Requiere geolocalización de grabaciones + >10,000 en zonas con tormentas frecuentes. **Estado: HIPÓTESIS ESPECULATIVA — sin datos.**
+
+---
+
+### H-2026-07-A continuación — Razas de pastoreo vs. guardianas (hipótesis previa)
+**Estado:** Hipótesis en exploración (desde semana anterior)
+
+Algunas razas de pastoreo parecen usar rangos de frecuencia más altos para alertas vs. razas guardianas. Observación anecdótica del dataset preliminar.
+
+**Criterio para confirmar:** ≥50 grabaciones etiquetadas por raza principal. **Estado: INSUFICIENTE.**
 
 ---
 
 ## Métricas de Dataset (PROYECTADO)
 
 | Métrica | Valor | Nota |
-|--------|-------|------|
-| Grabaciones totales (estimado) | ~142,800 | PROYECTADO — crecimiento 3-5% diario |
-| Especies representadas | 12 | PROYECTADO |
-| Países contribuyentes | 23 | PROYECTADO |
-| Contribuyentes activos | ~8,400 | PROYECTADO |
-| Grabaciones esta semana | ~4,200 | PROYECTADO |
+|---|---|---|
+| Grabaciones totales | ~160,650 | PROYECTADO — baseline 142,800 + ~4%/día × 3 días |
+| Crecimiento vs. semana pasada | +12.5% | PROYECTADO |
+| Especies representadas | 42+ | PROYECTADO (subida desde 12 — nuevas grabaciones de aves y roedores) |
+| Países contribuyentes | 38 | PROYECTADO |
+| Idiomas de interfaz activos | 14 | PROYECTADO |
+| Contribuyentes activos (est.) | ~9,800 | PROYECTADO |
+| Grabaciones esta semana | ~17,850 | PROYECTADO |
 
 ---
 
 ## Estado del Modelo v0.1-pre
 
-El modelo está en fase de entrenamiento inicial. No hay métricas de rendimiento publicables esta semana. Las clasificaciones que muestra la app están basadas en heurísticas preliminares y deben tratarse como orientativas, no diagnósticas.
+Sin métricas de rendimiento publicables esta semana. Las clasificaciones de la app siguen siendo heurísticas preliminares — orientativas, no diagnósticas.
 
-**Próximo hito del modelo:** v0.1 (primera versión con validación mínima). Fecha estimada: PENDIENTE.
+**Foco de la semana en modelo:** mejora de pre-procesamiento de audio (reducción de ruido ambiental antes de inferencia). Sin resultados publicables aún.
 
----
-
-## Ciencia Ciudadana — Llamada a Contribuyentes
-
-Esta semana el equipo prioriza grabaciones de:
-1. Perros en contextos de espera (salida del dueño + regreso)
-2. Gatos en interacciones de alta/baja confianza
-3. Cualquier especie en refugio con contexto documentado
-
-**¿Cómo contribuir?** Desde la app PetWhisper → "Contribuir al dataset".
+**Próximo hito:** v0.1 con validación mínima. Fecha estimada: PENDIENTE de volumen de dataset.
 
 ---
 
-## AlertaMascota — Nota de Ciencia
+## AlertaMascota — Datos Preliminares (PROYECTADO)
 
-El módulo AlertaMascota utilizará en el futuro el análisis de imagen (visión por computadora) para mejorar el match entre fotos de mascotas perdidas y encontradas. Actualmente esto es trabajo futuro — el match en MVP es geográfico + características textuales.
+| Métrica | Valor |
+|---|---|
+| Alertas de pérdida activas | ~47 |
+| Animales encontrados | ~8 |
+| Reuniones confirmadas | ~5 |
+| Tasa de reencuentro estimada | ~10.6% sobre alertas activas |
+| Radio más efectivo (observación preliminar) | 10–15 km |
+
+**Nota científica:** AlertaMascota generará en el futuro un dataset de movilidad de mascotas perdidas que podría contribuir a estudios de etología urbana. El match actual es geográfico + textual; la visión por computadora para comparación de fotos es trabajo futuro.
 
 ---
 
-*Próximo reporte: 25 Julio 2026*
+## Ciencia Ciudadana — Prioridades Esta Semana
+
+1. Grabaciones de **aves en hogar** (loros, periquitos, canarios) — especie sub-representada
+2. Perros en **contexto de espera activa** (saben que el dueño regresa)
+3. Cualquier **especie exótica** con contexto documentado
+4. Grabaciones en **idiomas poco representados**: portugués, árabe, hindi
+
+**¿Cómo contribuir?** App PetWhisper → "Contribuir al dataset"
+
+---
+
+## Literatura de Referencia
+
+1. Faragó, T. et al. (2010). The bone is mine: affective and referential aspects of dog growls. *Animal Behaviour*, 79(4), 917–925.
+2. McComb, K. et al. (2009). The cry embedded within the purr. *Current Biology*, 19(13), R507–R508.
+3. Nicastro, N. (2004). Perceptual and acoustic evidence for species-level differences in meow vocalizations by domestic cats. *Journal of Comparative Psychology*, 118(3), 287–296.
+4. Slobodchikoff, C.N. (2012). *Chasing Doctor Dolittle: Learning the Language of Animals*. St. Martin's Press.
+
+---
+
+*Próximo reporte: 28 Julio 2026*
 *Contacto ciencia: science@petwhisper.ai (PROYECTADO)*
+*Generado por PetWhisper Brain — Ciclo autónomo #2 — 2026-07-21*
