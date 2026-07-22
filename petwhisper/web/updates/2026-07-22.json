@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-22",
+  "cycle": 3,
+  "generated_by": "PetWhisper Brain",
+  "model_version": "v0.1-pre",
+  "status": "pre-launch",
+  "note": "Todos los valores de dataset son PROYECTADOS. No son datos reales verificados.",
+
+  "dataset": {
+    "recordings_global": 166073,
+    "recordings_global_status": "PROYECTADO",
+    "recordings_growth_daily_pct": 4.0,
+    "recordings_growth_note": "3–5% diario estimado — baseline 160650 × 1.04",
+    "species": 42,
+    "species_status": "PROYECTADO",
+    "species_list_partial": ["perro", "gato", "loro", "canario", "conejo", "hamster", "tortuga", "pájaro_silvestre", "periquito", "cobaya"],
+    "countries": 39,
+    "countries_status": "PROYECTADO",
+    "languages_active": 14,
+    "languages_active_status": "PROYECTADO",
+    "contributors_active_estimated": 10200,
+    "contributors_active_status": "PROYECTADO"
+  },
+
+  "model": {
+    "version": "v0.1-pre",
+    "status": "training_active",
+    "latest_finding": "H-2026-07-D: Los maullidos felinos son comunicación interespecífica (gato→humano) documentada en literatura. Variable context_human_present marcada como crítica para clasificación válida.",
+    "latest_finding_status": "HIPÓTESIS — validada en literatura, pendiente de datos propios",
+    "accuracy_publishable": false,
+    "next_milestone": "v0.1 con validación mínima — fecha PENDIENTE"
+  },
+
+  "alerta_mascota": {
+    "feature_status": "in_design",
+    "phase": "building",
+    "active_cases_projected": 52,
+    "active_cases_status": "PROYECTADO",
+    "reunions_confirmed_projected": 6,
+    "reunions_confirmed_status": "PROYECTADO",
+    "always_free": true,
+    "radius_options_km": [5, 10, 25],
+    "registration_required_to_report_found": false
+  },
+
+  "content_today": {
+    "pillar": "educacion",
+    "day_of_week": "miercoles",
+    "topic": "El maullido: comunicación exclusivamente interespecífica (gato→humano)",
+    "platforms": ["tiktok", "instagram", "twitter", "facebook", "youtube"],
+    "languages": ["es", "en", "pt"],
+    "hashtags_primary": ["#PetWhisper", "#LenguajeAnimal", "#SabiasQue", "#PetWhisperChallenge"]
+  },
+
+  "science_updates": {
+    "hypotheses_active": 5,
+    "new_hypothesis_this_cycle": "H-2026-07-D (maullido interespecífico felino)",
+    "schema_change_pending": "v0.2 — campo context_human_present requerido en grabaciones felinas"
+  },
+
+  "mission_statement": "Los animales son seres libres. Merecen ser comprendidos."
+}
