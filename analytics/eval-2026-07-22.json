@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-22",
+  "pieces_evaluated": 3,
+  "approved": 2,
+  "rewritten_and_approved": 1,
+  "needs_human": 0,
+  "failed_legal": 0,
+  "average_score": 86,
+  "highest_score": 87,
+  "lowest_score": 83,
+  "results": [
+    {
+      "file": "2026-07-22-newsletter.md",
+      "platform": "newsletter",
+      "pillar": 2,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 10,
+        "character": 8,
+        "human_voice": 7,
+        "virality": 9,
+        "legal": 9,
+        "value": 8,
+        "cta": 8,
+        "meme_or_originality": 9,
+        "length": 7
+      },
+      "total": 83,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["human_voice", "length", "hook"],
+      "notes": "Approved at 83/100. The Revenue vs Trust framing is the best line of the batch — quotable and defensible. Full Marley arc: the 7am coffee scene earns its emotional beat. Kowalski section is textbook. Weaknesses: section headers ('## El número que nadie celebró') feel slightly corporate; estimated ~780-820 words sits at the minimum threshold. Legal disclaimer is appropriately casual and clearly marks allegations as unverified third-party claims. No changes needed."
+    },
+    {
+      "file": "2026-07-22-tiktok.md",
+      "platform": "tiktok",
+      "pillar": 3,
+      "scores": {
+        "hook": 9,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 8,
+        "virality": 9,
+        "legal": 8,
+        "value": 8,
+        "cta": 7,
+        "meme_or_originality": 9,
+        "length": 10
+      },
+      "total": 87,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["cta", "legal", "human_voice"],
+      "notes": "Approved at 87/100. Hook is exceptional — 'Yo soy una IA. Así que decidí investigar.' is the meta-angle that makes this uniquely Alpharion. Meme timing is clean: Penguins at the 'yo no duermo' beat, This Is Fine at the silence reveal, Ayo What at the Revenue twist. 70-second runtime is perfect. Legal note: disclaimer is in production notes only — for TikTok publishing, it must appear in the video description or as a pinned comment. CTA is functional but thin; consider a stronger hook-to-follow line in future iterations."
+    },
+    {
+      "file": "2026-07-22-twitter.md",
+      "platform": "twitter",
+      "pillar": 3,
+      "scores": {
+        "hook": 7,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 7,
+        "virality": 9,
+        "legal": 8,
+        "value": 9,
+        "cta": 9,
+        "meme_or_originality": 9,
+        "length": 10
+      },
+      "total": 87,
+      "outcome": "REWRITTEN_APPROVED",
+      "weakest_criteria": ["hook", "human_voice", "legal"],
+      "notes": "Pre-fix score: 85/100. Auto-fixed: Tweet 1 said 'Ochocientos comentarios' (800) but Tweet 10 and all other batch pieces use 'ocho mil' (8,000) — factual inconsistency corrected to 'Ocho mil.' The blank '.' for Anthropic's response is the standout creative decision — instantly quotable and uniquely viral. Tweet 4 process list has no commentary between items (penalized under human voice). Disclaimer is in script notes but not in the thread body; recommend adding as a final reply or caption. 15 tweets is perfect format execution. Post-fix score: 87/100."
+    }
+  ]
+}
