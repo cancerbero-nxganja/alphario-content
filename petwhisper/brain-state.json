@@ -1,8 +1,8 @@
 {
-  "cycle_count": 3,
+  "cycle_count": 4,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-22",
-  "recordings_global_baseline": 166073,
-  "last_cycle_summary": "Ciclo 3 (Miercoles 2026-07-22): Pilar Educacion — El maullido felino como comunicacion interspecifica exclusiva. Contenido ES/EN/PT para TikTok/IG/Twitter/FB/YouTube. Nueva hipotesis H-2026-07-D abierta. Weekly science report actualizado con 5 hipotesis activas. Web JSON 166,073 grabaciones PROYECTADO, 42+ especies, 39 paises. AlertaMascota phase: building, PROYECTADO 52 casos activos, 6 reuniones confirmadas."
+  "last_run": "2026-07-23",
+  "recordings_global_baseline": 172716,
+  "last_cycle_summary": "Ciclo 4 (Jueves 2026-07-23): Pilar Ciencia — Hipotesis H-2026-07-A-ext nueva: variabilidad vocal en razas de pastoreo vs. guardia. H-2026-07-A: idioma tonal del cuidador. Contenido ES/EN/PT para TikTok/IG/Twitter/FB/YouTube. Weekly science report actualizado con 5 hipotesis activas, 4 campos nuevos planificados para schema v0.2. Web JSON 172,716 grabaciones PROYECTADO, 43+ especies, 39 paises. AlertaMascota: 57 casos activos PROYECTADO, 8 reuniones confirmadas PROYECTADO."
 }

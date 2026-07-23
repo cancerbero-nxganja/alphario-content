@@ -1,0 +1,50 @@
+{
+  "_note": "All metrics marked PROJECTED. PetWhisper is in pre-launch phase. No real usage data exists yet.",
+  "date": "2026-07-23",
+  "cycle": 4,
+  "cycle_theme": "CIENCIA — Hipótesis razas/idiomas | SCIENCE — Breed/language hypotheses",
+  "recordings_global": 172716,
+  "recordings_global_note": "PROYECTADO — 166,073 baseline × 1.04 growth",
+  "recordings_growth_daily_pct": 4.0,
+  "recordings_growth_vs_yesterday": 6643,
+  "species": 43,
+  "species_note": "PROYECTADO",
+  "countries": 39,
+  "countries_note": "PROYECTADO",
+  "model_version": "v0.1-pre",
+  "model_status": "pre-training, no publishable metrics",
+  "latest_finding": "H-2026-07-A-ext: Herding breeds may show greater vocal variability than guarding breeds — evolutionary pressure hypothesis (HYPOTHESIS, not confirmed)",
+  "hypotheses_active": 5,
+  "hypotheses_list": [
+    "H-2026-07-A: Caretaker tonal vs. non-tonal language effect on dog vocalizations",
+    "H-2026-07-A-ext: Herding vs. guarding breed vocal variability (NEW)",
+    "H-2026-07-B: Cat meow repertoire in mono vs. multi-species households",
+    "H-2026-07-C: Pre-storm vocalization as weather signal",
+    "H-2026-07-D: Adult cat meow as exclusively interspecific communication (literature-validated)"
+  ],
+  "languages_active": 14,
+  "languages_active_note": "PROYECTADO",
+  "contributors_active_estimated": 10600,
+  "contributors_active_note": "PROYECTADO",
+  "alerta_mascota_active_cases": 57,
+  "alerta_mascota_active_cases_note": "PROYECTADO",
+  "alerta_mascota_found_this_week": 13,
+  "alerta_mascota_reunions_confirmed": 8,
+  "alerta_mascota_reunion_rate_pct": 14.0,
+  "alerta_mascota_status": "feature in development — spec complete",
+  "schema_version_planned": "v0.2",
+  "schema_v02_new_fields": [
+    "household_type",
+    "context_human_present",
+    "breed_work_type",
+    "caretaker_language"
+  ],
+  "content_published_today": {
+    "platforms": ["TikTok", "Instagram", "Twitter/X", "Facebook", "YouTube"],
+    "languages": ["Español", "English", "Português"],
+    "pillar": "CIENCIA",
+    "theme": "Hipótesis razas/idiomas — Herding vs. guarding breed vocal variability + tonal language hypothesis"
+  },
+  "generated_by": "PetWhisper Brain — autonomous cycle",
+  "generated_at": "2026-07-23"
+}
