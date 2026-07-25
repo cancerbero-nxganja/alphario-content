@@ -1,8 +1,8 @@
 {
-  "cycle_count": 4,
+  "cycle_count": 5,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-23",
-  "recordings_global_baseline": 172716,
-  "last_cycle_summary": "Ciclo 4 (Jueves 2026-07-23): Pilar Ciencia — Hipotesis H-2026-07-A-ext nueva: variabilidad vocal en razas de pastoreo vs. guardia. H-2026-07-A: idioma tonal del cuidador. Contenido ES/EN/PT para TikTok/IG/Twitter/FB/YouTube. Weekly science report actualizado con 5 hipotesis activas, 4 campos nuevos planificados para schema v0.2. Web JSON 172,716 grabaciones PROYECTADO, 43+ especies, 39 paises. AlertaMascota: 57 casos activos PROYECTADO, 8 reuniones confirmadas PROYECTADO."
+  "last_run": "2026-07-25",
+  "recordings_global_baseline": 186800,
+  "last_cycle_summary": "Ciclo 5 (Sabado 2026-07-25): Pilar Adopcion — Mango, perfil emocional demo para refugio. Hipotesis nuevas: H-2026-07-B-ext (reduccion vocal felinos en refugio) y H-2026-07-D (ciclo vocal predictor de adaptacion). 6 hipotesis activas totales. Schema v0.2 con 4 campos pendientes. Web JSON 186,800 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 62 casos activos PROYECTADO, 3 reuniones confirmadas semana PROYECTADO."
 }
