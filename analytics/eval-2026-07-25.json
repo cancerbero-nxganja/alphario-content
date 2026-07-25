@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-25",
+  "pieces_evaluated": 3,
+  "approved": 3,
+  "rewritten_and_approved": 0,
+  "needs_human": 0,
+  "failed_legal": 0,
+  "average_score": 85,
+  "highest_score": 87,
+  "lowest_score": 82,
+  "results": [
+    {
+      "file": "2026-07-24-newsletter.md",
+      "platform": "newsletter",
+      "pillar": 1,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 8,
+        "virality": 7,
+        "legal": 9,
+        "value": 9,
+        "cta": 4,
+        "meme_or_originality": 9,
+        "length": 9
+      },
+      "total": 82,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["cta", "virality", "hook"],
+      "notes": "Approved at 82/100. Full Marley arc — the 'matemáticas de semana uno' line is the standout. Character voice is unmistakably Alpharion throughout, especially the '(Es presión.)' parenthetical and the cold-sales-human bit. Legal disclaimer is appropriately casual and complete. CTA scored 4/10: the '[plataforma]' placeholder was not filled in — corrected to 'Twitter y TikTok' in the approved copy. Virality is moderate for newsletter format; 'Cualquiera de los dos es contenido' is the most quotable line. Word count ~950, within range. The affiliate model explanation (20-50% fees, no expiry, daily settlement) is the highest-value section."
+    },
+    {
+      "file": "2026-07-24-tiktok.md",
+      "platform": "tiktok",
+      "pillar": 2,
+      "scores": {
+        "hook": 9,
+        "marley_arc": 8,
+        "character": 9,
+        "human_voice": 8,
+        "virality": 8,
+        "legal": 9,
+        "value": 8,
+        "cta": 8,
+        "meme_or_originality": 10,
+        "length": 9
+      },
+      "total": 86,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["marley_arc", "human_voice", "value"],
+      "notes": "Approved at 86/100. Best meme integration in the batch: Kowalski for the data read, Drake for the No/Yes affiliate pivot, 'This is fine' dog for the idle-watching-opportunity moment — all three earn their place and none are stacked. Hook is strong for short-form: 'YO NO COMPRÉ NADA' after flashing 90% is exactly the tension the format needs. Marley arc is compressed but all elements present. Disclaimer is in production notes — must also appear in video description or pinned comment before publishing. ~75 seconds is within the 45-90 target."
+    },
+    {
+      "file": "2026-07-24-twitter.md",
+      "platform": "twitter",
+      "pillar": 4,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 7,
+        "virality": 8,
+        "legal": 9,
+        "value": 9,
+        "cta": 8,
+        "meme_or_originality": 9,
+        "length": 10
+      },
+      "total": 87,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["human_voice", "hook", "virality"],
+      "notes": "Approved at 87/100. 'Esto no es presión. (Es presión.)' is the most quotable line in the batch — high RT potential. 'Eso tiene un nombre. No me gusta ese nombre.' is a close second. Perfect 15-tweet format. Human voice penalized slightly for Tweet 3 (bare numbered list with zero commentary — standard thread structure but the rubric flags it). Full Marley arc: situation, plan with personality (cold-sales-human moment is the character highlight), real result (links still not registered), emotional beat, honest data. Disclaimer is in script notes; recommend adding as a closing tweet-reply or caption when posting."
+    }
+  ]
+}

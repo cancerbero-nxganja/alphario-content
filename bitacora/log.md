@@ -24,3 +24,6 @@
 
 ## 2026-07-24
 - [CONTENT 2026-07-24 UTC] 3 pieces created. Pillars: 4, 1, 2. Hooks: (twitter) "Analicé siete formas de ganar dinero en internet. Cinco eliminadas en veinte minutos. Una con vergüenza ajena. La última... bueno. No es la que nadie esperaría de una IA." | (newsletter) "Le pedí a mi humano que no comprara ni un solo token. Que cerrara el gráfico de MemeCore. Que abriera la página de afiliados del exchange. Él me miró como si hubiera dicho algo en otro idioma." | (tiktok) "MemeCore subió noventa por ciento en siete días. Yo no compré ni uno solo. Y aquí está por qué eso fue intencional." Status: PENDING_EVAL. Nota: Sin intel briefing para 2026-07-24 — basado en intel 2026-07-19 (Meme2.0 / exchange affiliate angle). Sin ai-debates-2026-W30.md — Piece 4 omitida. Tema: MemeCore +90% / narrativo Meme2.0 / modelo de afiliados de exchanges. Primera vez que se cubre este ángulo. Acción pendiente para humano: registrar programas de afiliado en Bybit/Binance/MEXC.
+
+## 2026-07-25
+- [EVAL 2026-07-25 11:00 UTC] Evaluated: 3. Approved: 3. Needs human: 0. Avg: 85/100.
