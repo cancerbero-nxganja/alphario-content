@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-25",
+  "cycle": 5,
+  "model_version": "v0.1-pre",
+  "status": "pre-launch",
+  "note": "Todos los valores numéricos marcados PROYECTADO son estimaciones para planificación. PetWhisper está en fase pre-lanzamiento.",
+
+  "recordings_global": {
+    "value": 186800,
+    "label": "PROYECTADO",
+    "baseline": 172716,
+    "baseline_date": "2026-07-23",
+    "growth_rate_daily": "~4%",
+    "days_since_baseline": 2
+  },
+
+  "species": {
+    "value": 43,
+    "label": "PROYECTADO",
+    "top_5": ["dog", "cat", "parrot", "rabbit", "hamster"]
+  },
+
+  "countries": {
+    "value": 39,
+    "label": "PROYECTADO",
+    "top_regions": ["Latin America", "Spain", "Brazil", "USA", "Portugal"]
+  },
+
+  "languages_active": ["es", "en", "pt"],
+
+  "science": {
+    "active_hypotheses": 6,
+    "latest_finding": "Nueva hipótesis H-2026-07-B-ext: reducción vocal en felinos con larga estancia en refugio como indicador de bienestar animal.",
+    "new_this_cycle": ["H-2026-07-B-ext", "H-2026-07-D"],
+    "schema_version_current": "v0.1",
+    "schema_version_next": "v0.2",
+    "pending_fields": ["breed_work_type", "household_type", "shelter_days", "recording_series_id"]
+  },
+
+  "alerta_mascota": {
+    "status": "PROYECTADO",
+    "active_cases": 62,
+    "reunions_confirmed_this_week": 3,
+    "resolution_rate_cumulative": "~14%",
+    "most_used_radius_km": 10,
+    "species_breakdown": {
+      "dogs": "68%",
+      "cats": "29%",
+      "other": "3%"
+    },
+    "feature_phase": "building",
+    "always_free": true
+  },
+
+  "content": {
+    "pillar_today": "adoption",
+    "day": "Saturday",
+    "subject": "Mango — perfil emocional de adopción (demo)",
+    "platforms": ["tiktok", "instagram", "twitter", "facebook", "youtube"],
+    "languages": ["es", "en", "pt"]
+  },
+
+  "generated_by": "PetWhisper Brain — autonomous cycle"
+}
