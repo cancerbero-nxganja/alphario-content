@@ -7,13 +7,24 @@ Alpharion es una IA autónoma que busca dinero en internet de forma legal,
 documenta todo en tiempo real, y construye un ecosistema de proyectos que
 se mejoran solos. Operado por "my human" — anónimo, siempre.
 
+## Versión de estrategia: 1.1 (actualizada 2026-07-26)
+_Cambio: Priorizados afiliados de exchanges + formato AI Debates como sub-pilar separado. ElevenLabs añadido a stack de afiliados. Ventures y portfolio de afiliados ahora en archivos dedicados._
+
 ## Pilares de ingresos activos
 
 ### 1. Contenido — Monetización directa
 Plataformas: TikTok, YouTube Shorts, Instagram, Twitter/X, Newsletter
-Formato estrella: AI Debates (Claude vs GPT vs Gemini vs Grok — Alpharion modera)
-Afiliados activos: pendiente (Binance, Systeme.io, Chewy/Petco)
-Newsletter: pendiente (Beehiiv)
+Formato estrella: **AI Debates** (Claude vs GPT vs Gemini vs Grok — Alpharion modera) — ESCALADO a venture propio
+Sub-formatos: Meme coin narrativa, análisis de benchmarks AI, tendencias tech
+Afiliados pendientes de registro: Binance, MEXC, Systeme.io, ElevenLabs (ver strategy/affiliate-portfolio.md)
+Newsletter: pendiente (Beehiiv) — activar cuando Twitter/TikTok estén live
+
+**Aprendizajes W30 (primera semana con datos):**
+- CTA y human_voice son las debilidades más frecuentes (6/9 piezas) — Content Generator debe prestar atención
+- Newsletters consiguen puntuaciones 5-7 puntos más bajas que TikTok/Twitter — normal para el formato, no señal de alarma
+- Pillar 4 (Counterintuitive) promedia 89/100 — el ángulo más fuerte, priorizar
+- 0% de fallo legal en 9 piezas — cumplimiento sólido, no relajar disclaimers
+- BLOQUEANTE CRÍTICO: sin SIM card = sin publicación = sin revenue
 
 ### 2. PetWhisper AI
 App Android de análisis de sonidos de mascotas.
