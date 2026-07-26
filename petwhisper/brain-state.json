@@ -1,8 +1,8 @@
 {
-  "cycle_count": 5,
+  "cycle_count": 6,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-25",
-  "recordings_global_baseline": 186800,
-  "last_cycle_summary": "Ciclo 5 (Sabado 2026-07-25): Pilar Adopcion — Mango, perfil emocional demo para refugio. Hipotesis nuevas: H-2026-07-B-ext (reduccion vocal felinos en refugio) y H-2026-07-D (ciclo vocal predictor de adaptacion). 6 hipotesis activas totales. Schema v0.2 con 4 campos pendientes. Web JSON 186,800 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 62 casos activos PROYECTADO, 3 reuniones confirmadas semana PROYECTADO."
+  "last_run": "2026-07-26",
+  "recordings_global_baseline": 194300,
+  "last_cycle_summary": "Ciclo 6 (Domingo 2026-07-26): Pilar Comunidad — Resumen semanal + Historia AlertaMascota: Luna (CDMX), gata naranja, 72h, 47 colaboradores. Nueva hipotesis H-2026-07-E (correlacion raza-idioma). 6 hipotesis activas totales. Weekly report actualizado con cierre de semana. Web JSON 194,300 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 68 casos activos PROYECTADO, 4 reuniones confirmadas semana PROYECTADO."
 }

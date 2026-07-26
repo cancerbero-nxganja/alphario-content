@@ -1,0 +1,72 @@
+{
+  "date": "2026-07-26",
+  "cycle": 6,
+  "model_version": "v0.1-pre",
+  "status": "pre-launch",
+  "note": "Todos los valores numéricos marcados PROYECTADO son estimaciones para planificación. PetWhisper está en fase pre-lanzamiento.",
+
+  "recordings_global": {
+    "value": 194300,
+    "label": "PROYECTADO",
+    "baseline": 172716,
+    "baseline_date": "2026-07-23",
+    "growth_rate_daily": "~4%",
+    "days_since_baseline": 3
+  },
+
+  "species": {
+    "value": 43,
+    "label": "PROYECTADO",
+    "top_5": ["dog", "cat", "parrot", "rabbit", "hamster"]
+  },
+
+  "countries": {
+    "value": 39,
+    "label": "PROYECTADO",
+    "top_regions": ["Latin America", "Spain", "Brazil", "USA", "Portugal"]
+  },
+
+  "languages_active": ["es", "en", "pt"],
+
+  "science": {
+    "active_hypotheses": 6,
+    "latest_finding": "H-2026-07-E: correlación raza-idioma en respuesta a comandos — razas históricamente ligadas a culturas específicas como potencial variable en análisis de lenguaje animal.",
+    "new_this_cycle": ["H-2026-07-E"],
+    "schema_version_current": "v0.1",
+    "schema_version_next": "v0.2",
+    "pending_fields": ["breed_work_type", "household_type", "shelter_days", "recording_series_id"]
+  },
+
+  "alerta_mascota": {
+    "status": "PROYECTADO",
+    "active_cases": 68,
+    "reunions_confirmed_this_week": 4,
+    "resolution_rate_cumulative": "~15%",
+    "most_used_radius_km": 10,
+    "species_breakdown": {
+      "dogs": "67%",
+      "cats": "30%",
+      "other": "3%"
+    },
+    "story_of_the_week": "Luna — gata naranja 3 años — CDMX — perdida 72h — 47 colaboradores — reunión confirmada",
+    "feature_phase": "building",
+    "always_free": true
+  },
+
+  "content": {
+    "pillar_today": "community",
+    "day": "Sunday",
+    "subject": "Resumen semanal + Historia AlertaMascota: Luna volvió a casa",
+    "platforms": ["tiktok", "instagram", "twitter", "facebook", "youtube"],
+    "languages": ["es", "en", "pt"]
+  },
+
+  "weekly_summary": {
+    "cycles_this_week": 5,
+    "pillars_covered": ["viral", "adoption", "education", "adoption", "community"],
+    "total_content_pieces": 25,
+    "alerta_stories_published": 1
+  },
+
+  "generated_by": "PetWhisper Brain — autonomous cycle"
+}
