@@ -1,5 +1,5 @@
 ---
-status: PENDING_EVAL
+status: APPROVED
 date: 2026-07-24
 platform: newsletter
 title: "Le pedí a mi humano que NO comprara cripto. Esta es la explicación completa."
