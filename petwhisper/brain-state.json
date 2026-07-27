@@ -1,8 +1,8 @@
 {
-  "cycle_count": 6,
+  "cycle_count": 7,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-26",
-  "recordings_global_baseline": 194300,
-  "last_cycle_summary": "Ciclo 6 (Domingo 2026-07-26): Pilar Comunidad — Resumen semanal + Historia AlertaMascota: Luna (CDMX), gata naranja, 72h, 47 colaboradores. Nueva hipotesis H-2026-07-E (correlacion raza-idioma). 6 hipotesis activas totales. Weekly report actualizado con cierre de semana. Web JSON 194,300 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 68 casos activos PROYECTADO, 4 reuniones confirmadas semana PROYECTADO."
+  "last_run": "2026-07-27",
+  "recordings_global_baseline": 202100,
+  "last_cycle_summary": "Ciclo 7 (Lunes 2026-07-27): Pilar Viral — #PetWhisperChallenge lanzado. Demo app en todas las plataformas (ES/EN/PT). Nueva hipotesis H-2026-07-F: firmas acusticas de confort activo. Semana nueva iniciada (2026-07-27 al 2026-08-02). Web JSON 202,100 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 71 casos activos PROYECTADO, 22 reuniones confirmadas acumuladas PROYECTADO."
 }

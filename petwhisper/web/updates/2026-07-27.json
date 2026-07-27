@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-27",
+  "cycle": 7,
+  "note": "Todos los valores numericos son PROYECTADOS. PetWhisper esta en fase pre-lanzamiento.",
+  "recordings_global": 202100,
+  "recordings_global_status": "PROYECTADO",
+  "recordings_growth_rate_daily": "4%",
+  "species": 43,
+  "countries": 39,
+  "model_version": "v0.1-pre",
+  "model_status": "pre-launch training phase",
+  "latest_finding": "H-2026-07-F: Firmas acusticas de confort activo — apertura de hipotesis sobre vocalizaciones de bienestar como baseline emocional positivo (PROYECTADO)",
+  "hypotheses_active": 7,
+  "languages_active": ["es", "en", "pt"],
+  "alerta_mascota_active_cases": 71,
+  "alerta_mascota_active_cases_status": "PROYECTADO",
+  "alerta_mascota_reunions_confirmed_total": 22,
+  "alerta_mascota_reunions_confirmed_status": "PROYECTADO",
+  "alerta_mascota_resolution_rate": "15%",
+  "alerta_mascota_resolution_rate_status": "PROYECTADO",
+  "challenge": {
+    "name": "PetWhisperChallenge",
+    "launched": "2026-07-27",
+    "status": "active"
+  },
+  "pilar_dia": "Viral",
+  "content_day": "Lunes — demo app + PetWhisperChallenge",
+  "schema_version": "v0.1",
+  "schema_next": "v0.2-pending",
+  "generated_by": "PetWhisper Brain"
+}
