@@ -1,0 +1,61 @@
+{
+  "_note": "All values marked PROJECTED are estimates for planning purposes. PetWhisper is in pre-launch phase.",
+  "date": "2026-07-28",
+  "cycle": 8,
+  "recordings_global": {
+    "value": 208100,
+    "status": "PROYECTADO",
+    "growth_vs_yesterday": "3.0%",
+    "baseline_note": "Grows 3-5% daily in projection model"
+  },
+  "species": {
+    "total": 43,
+    "top_5": ["dog", "cat", "parrot", "rabbit", "hamster"],
+    "status": "PROYECTADO"
+  },
+  "countries": {
+    "total": 39,
+    "top_regions": ["LATAM", "España", "Brasil", "México", "Argentina"],
+    "status": "PROYECTADO"
+  },
+  "model": {
+    "version": "v0.1-pre",
+    "status": "pre-launch",
+    "features_active": ["bark_classification", "meow_classification", "stress_detection_alpha"],
+    "features_development": ["emotional_profile_shelter", "alerta_mascota_matching", "comfort_signature_detection"]
+  },
+  "latest_finding": {
+    "id": "H-2026-07-F",
+    "title": "Acoustic comfort signatures",
+    "summary": "Animals may produce species-consistent spectral signatures in active comfort states (purring, play-growl, greeting vocalizations), which could serve as emotional baselines for detecting deviations.",
+    "status": "EXPLORATORY",
+    "science_status": "PROYECTADO — requires empirical validation"
+  },
+  "languages_active": {
+    "app": ["es", "en", "pt"],
+    "content_published": ["es", "en", "pt"],
+    "status": "active"
+  },
+  "alerta_mascota": {
+    "status": "SPEC_BUILDING",
+    "active_cases_projected": 73,
+    "reunions_confirmed_accumulated_projected": 23,
+    "resolution_rate_projected": "~15%",
+    "radius_options_km": [5, 10, 25],
+    "cities_pilot_target": ["Buenos Aires", "Ciudad de México", "São Paulo", "Madrid"],
+    "always_free": true,
+    "status_note": "PROYECTADO — feature in design/spec phase"
+  },
+  "content_today": {
+    "pillar": "Adoption",
+    "topic": "Emotional profile of shelter pets",
+    "languages": ["es", "en", "pt"],
+    "formats": ["tiktok_60s", "instagram_caption", "twitter_thread_5", "facebook_post", "youtube_description"]
+  },
+  "community": {
+    "petwhisper_challenge_status": "LAUNCHED",
+    "waitlist_open": true,
+    "contributing_open": true
+  },
+  "generated_by": "PetWhisper Brain — Cycle #8 — 2026-07-28"
+}

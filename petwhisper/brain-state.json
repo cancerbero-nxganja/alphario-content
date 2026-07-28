@@ -1,8 +1,8 @@
 {
-  "cycle_count": 7,
+  "cycle_count": 8,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-27",
-  "recordings_global_baseline": 202100,
-  "last_cycle_summary": "Ciclo 7 (Lunes 2026-07-27): Pilar Viral — #PetWhisperChallenge lanzado. Demo app en todas las plataformas (ES/EN/PT). Nueva hipotesis H-2026-07-F: firmas acusticas de confort activo. Semana nueva iniciada (2026-07-27 al 2026-08-02). Web JSON 202,100 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 71 casos activos PROYECTADO, 22 reuniones confirmadas acumuladas PROYECTADO."
+  "last_run": "2026-07-28",
+  "recordings_global_baseline": 208100,
+  "last_cycle_summary": "Ciclo 8 (Martes 2026-07-28): Pilar ADOPCION — Perfil emocional de mascotas en refugios. Scripts ES/EN/PT para TikTok 60s, Instagram, Twitter thread x5, Facebook, YouTube. Concepto: la IA escucha al animal en el refugio y traduce su perfil emocional antes de adoptar. H-2026-07-B-ext y H-2026-07-D reforzadas. Historia de formato AlertaMascota incluida (Kira, beagle, PROYECTADO). Web JSON 208,100 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 73 casos activos PROYECTADO, 23 reuniones confirmadas acumuladas PROYECTADO."
 }

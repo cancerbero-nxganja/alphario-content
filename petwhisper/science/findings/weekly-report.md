@@ -105,7 +105,7 @@ Esto refuerza la misión: los animales son seres libres con vida emocional propi
 | Día | Pilar | Tema |
 |-----|-------|------|
 | Lun 2026-07-27 | Viral | #PetWhisperChallenge — demo app |
-| Mar 2026-07-28 | Adopción | Perfil emocional refugio (pendiente) |
+| Mar 2026-07-28 | Adopción | Perfil emocional refugio ✅ — scripts publicados (ES/EN/PT) |
 | Mié 2026-07-29 | Educación | Dato científico lenguaje animal (pendiente) |
 | Jue 2026-07-30 | Ciencia | H-2026-07-F firmas de confort (pendiente) |
 | Vie 2026-07-31 | Viral | Challenge viral (pendiente) |
@@ -124,4 +124,28 @@ Esto refuerza la misión: los animales son seres libres con vida emocional propi
 
 ---
 
-*Generado por PetWhisper Brain — Ciclo autónomo #7 — 2026-07-27*
+---
+
+## Actualización Ciclo #8 — 2026-07-28
+
+**Pilar del día:** ADOPCIÓN — Perfil emocional de mascota en refugio
+
+**Avance en H-2026-07-B-ext (Reducción vocal en felinos en refugio):**
+Publicado contenido educativo sobre el uso del perfil emocional para adopción.
+El concepto de "arco vocal de adaptación post-adopción" (silencio → exploración → confianza)
+fue integrado en los scripts de hoy como gancho narrativo. Esto refuerza la hipótesis D
+y establece el marco comunicacional para cuando se tenga colaboración con refugios.
+
+**AlertaMascota — Ejemplo narrativo:**
+Se incorporó una historia de formato ejemplo (Kira, beagle, Palermo BA) para
+establecer el tono y estructura de las historias de reunión. Marcada como PROYECTADO.
+Tasa de resolución estimada: ~15% de casos activos → PROYECTADO.
+
+**Dataset actualizado (PROYECTADO):**
+- Grabaciones globales: ~208,100 (crecimiento ~3% desde ciclo anterior)
+- Especies: 43 (estable)
+- Países: 39 (estable)
+- Casos AlertaMascota activos: ~73 (PROYECTADO)
+- Reuniones confirmadas acumuladas: ~23 (PROYECTADO)
+
+*Generado por PetWhisper Brain — Ciclo autónomo #8 — 2026-07-28*
