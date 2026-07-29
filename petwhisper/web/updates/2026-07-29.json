@@ -1,0 +1,49 @@
+{
+  "_note": "Todos los valores son PROYECTADOS. PetWhisper está en fase pre-lanzamiento. Los datos reflejan proyecciones de planificación, no métricas de usuarios reales.",
+  "date": "2026-07-29",
+  "cycle": 9,
+  "model_version": "v0.1-pre",
+  "model_phase": "pre-training",
+  "recordings_global": 216400,
+  "recordings_global_status": "PROYECTADO",
+  "recordings_growth_rate_daily": "~4%",
+  "species": 43,
+  "species_status": "PROYECTADO",
+  "countries": 39,
+  "countries_status": "PROYECTADO",
+  "languages_active": 12,
+  "languages_active_status": "PROYECTADO",
+  "latest_finding": {
+    "id": "H-2026-07-C",
+    "title": "Asimetría de cola en perros como indicador de lateralidad emocional",
+    "basis": "Vallortigara et al. (2007) — PUBLICADO. Aplicación a dataset PetWhisper: HIPÓTESIS ACTIVA.",
+    "status": "hypothesis_active"
+  },
+  "alerta_mascota": {
+    "phase": "building",
+    "spec_complete": true,
+    "active_cases_projected": 76,
+    "active_cases_status": "PROYECTADO",
+    "confirmed_reunions_accumulated": 25,
+    "confirmed_reunions_status": "PROYECTADO",
+    "avg_resolution_hours_target": 4,
+    "always_free": true,
+    "default_radius_km": 10,
+    "compatible_with_human_alert_api": true
+  },
+  "content_today": {
+    "pillar": "educacion",
+    "day": "miercoles",
+    "topic": "Lenguaje animal — asimetría cerebral y señales corporales en perros",
+    "languages": ["es", "en", "pt"],
+    "platforms": ["tiktok", "instagram", "twitter", "facebook", "youtube"],
+    "scientific_ref": "Vallortigara G, Quaranta A, Siniscalchi M. (2007). Current Biology 17(6) R199-R201"
+  },
+  "new_hypothesis_proposed": {
+    "id": "H-2026-08-A",
+    "title": "Lateralización vocal en vocalizaciones de bienestar",
+    "status": "exploratoria"
+  },
+  "mission_statement": "Los animales son seres libres con lenguaje propio. PetWhisper existe para que ese lenguaje sea comprendido.",
+  "generated_by": "PetWhisper Brain — Ciclo autónomo #9"
+}

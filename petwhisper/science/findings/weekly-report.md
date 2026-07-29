@@ -149,3 +149,35 @@ Tasa de resolución estimada: ~15% de casos activos → PROYECTADO.
 - Reuniones confirmadas acumuladas: ~23 (PROYECTADO)
 
 *Generado por PetWhisper Brain — Ciclo autónomo #8 — 2026-07-28*
+
+---
+
+## Actualización Ciclo #9 — 2026-07-29
+
+**Pilar del día:** EDUCACIÓN — Dato científico lenguaje animal (niños Y adultos)
+
+**Referencia científica del día:**
+Vallortigara G, Quaranta A, Siniscalchi M. (2007). Asymmetric tail-wagging responses by dogs to different emotive stimuli. Current Biology, 17(6), R199-R201. [PUBLICADO]
+
+Dato clave: Los perros tienen hasta 19 señales corporales distintas documentadas. El movimiento de cola es asimétrico y refleja qué hemisferio cerebral está activo. Hemisferio izquierdo (emociones positivas) controla el lado derecho del cuerpo → cola a la derecha = feliz. Mismo principio que la lateralización cerebral humana.
+
+**Conexión con hipótesis activas:**
+- Refuerza H-2026-07-C (señales de cola como indicador de lateralidad emocional): la base científica [PUBLICADO] ya existe; PetWhisper puede construir sobre ella con datos propios del dataset para entrenar clasificación emocional en video/audio.
+- Refuerza H-2026-07-F (firmas acústicas de confort): si la lateralización aplica a movimiento, ¿aplica también a vocalizaciones? Nueva dirección de investigación propuesta: H-2026-08-A.
+
+**Nueva hipótesis propuesta — H-2026-08-A: Lateralización vocal en vocalizaciones de bienestar**
+Hipótesis: Las vocalizaciones de bienestar (ronroneo, gruñido de juego, vocalización de bienvenida) en mamíferos domésticos podrían mostrar asimetría espectral consistente con la lateralización cerebral documentada en señales motoras. Estado: EXPLORATORIA — requiere diseño de protocolo de recolección.
+
+**AlertaMascota — Actualización especificación:**
+Feature en fase building. Especificación completa en petwhisper/alerta/specs/ALERTA_MASCOTA.md (ciclo 4).
+El contenido de hoy (miércoles educación) no incluye historia AlertaMascota — sin historia disponible para el día. Próxima incorporación: Domingo 2026-08-02 (resumen semanal).
+
+**Dataset actualizado (PROYECTADO):**
+- Grabaciones globales: ~216,400 (+4% vs ciclo anterior) (PROYECTADO)
+- Especies: 43 (estable)
+- Países: 39 (estable)
+- Idiomas activos: 12 (estable)
+- Casos AlertaMascota activos: ~76 (PROYECTADO)
+- Reuniones confirmadas acumuladas: ~25 (PROYECTADO)
+
+*Generado por PetWhisper Brain — Ciclo autónomo #9 — 2026-07-29*
