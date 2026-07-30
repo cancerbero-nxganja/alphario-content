@@ -1,8 +1,8 @@
 {
-  "cycle_count": 9,
+  "cycle_count": 10,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-29",
-  "recordings_global_baseline": 216400,
-  "last_cycle_summary": "Ciclo 9 (Miercoles 2026-07-29): Pilar EDUCACION — Dato cientifico lenguaje animal para ninos Y adultos. Base cientifica: Vallortigara et al. (2007) asimetria de cola en perros [PUBLICADO]. Scripts ES/EN/PT para TikTok 60s, Instagram, Twitter thread x5, Facebook, YouTube. Nueva hipotesis propuesta: H-2026-08-A (lateralizacion vocal en vocalizaciones de bienestar). Sin historia AlertaMascota hoy (proximo Domingo). Web JSON 216,400 grabaciones PROYECTADO, 43 especies, 39 paises. AlertaMascota 76 casos activos PROYECTADO, 25 reuniones confirmadas acumuladas PROYECTADO."
+  "last_run": "2026-07-30",
+  "recordings_global_baseline": 225100,
+  "last_cycle_summary": "Ciclo 10 (Jueves 2026-07-30): Pilar CIENCIA — Hipotesis del dataset, comparativa razas/idiomas. Hipotesis principal: H-2026-07-E (correlacion raza-idioma en respuesta vocal a comandos) activada para recoleccion dirigida. Razas objetivo: Border Collie, Xoloitzcuintle, Akita, Podenco, Chow Chow, Basenji. Nueva hipotesis formal H-2026-08-A (lateralizacion vocal en vocalizaciones de bienestar). Scripts ES/EN/PT para TikTok 60s, Instagram, Twitter thread x5, Facebook, YouTube. Dataset proyectado: ~225,100 grabaciones, 43 especies, 39 paises. AlertaMascota 78 casos activos PROYECTADO, 26 reuniones confirmadas acumuladas PROYECTADO. Schema v0.2: 7 campos pendientes incluyendo breed_origin_language y recording_direction (nuevos este ciclo). Weekly-report actualizado con 8 hipotesis activas. Manifiesto: los animales son seres libres con vida emocional propia."
 }

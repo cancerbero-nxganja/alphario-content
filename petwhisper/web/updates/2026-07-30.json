@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-30",
+  "cycle": 10,
+  "generated_by": "PetWhisper Brain v0.1",
+  "note": "Todos los valores numéricos marcados PROYECTADO corresponden a estimaciones de planificación. PetWhisper está en fase pre-lanzamiento.",
+  "dataset": {
+    "recordings_global": 225100,
+    "recordings_global_note": "PROYECTADO — baseline ciclo anterior 216,400 + crecimiento ~4% diario",
+    "species": 43,
+    "countries": 39,
+    "model_version": "v0.1-pre",
+    "languages_active": ["es", "en", "pt", "fr", "de", "ja", "zh"],
+    "challenge_recordings": "PROYECTADO — pendiente lanzamiento oficial"
+  },
+  "latest_finding": {
+    "hypothesis_id": "H-2026-08-A",
+    "title": "Lateralización vocal en vocalizaciones de bienestar",
+    "status": "apertura_formal",
+    "summary": "Las vocalizaciones de estados positivos (ronroneo, gemido suave de juego, vocalización de bienvenida) podrían mostrar lateralización acústica detectable. Primer dataset ciudadano en explorar esto sistemáticamente. [PROYECTADO]",
+    "companion_hypothesis": "H-2026-07-E",
+    "companion_title": "Correlación raza-idioma en respuesta vocal a comandos"
+  },
+  "active_hypotheses": [
+    "H-2026-07-A", "H-2026-07-B", "H-2026-07-B-ext",
+    "H-2026-07-C", "H-2026-07-D", "H-2026-07-E",
+    "H-2026-07-F", "H-2026-08-A"
+  ],
+  "alerta_mascota": {
+    "status": "en_desarrollo",
+    "feature_phase": "building",
+    "active_cases_projected": 78,
+    "confirmed_reunions_accumulated_projected": 26,
+    "resolution_rate_projected": "~17%",
+    "most_used_radius_km": 10,
+    "pilot_cities": ["CDMX", "Buenos Aires", "São Paulo", "Madrid"],
+    "always_free": true,
+    "spec_file": "petwhisper/alerta/specs/ALERTA_MASCOTA.md"
+  },
+  "content_published_today": {
+    "pilar": "Ciencia",
+    "theme": "Hipótesis del dataset — correlación raza-idioma y lateralización vocal",
+    "platforms": ["TikTok", "Instagram", "Twitter/X", "Facebook", "YouTube"],
+    "languages": ["es", "en", "pt"],
+    "script_file": "petwhisper/content/scripts/2026-07-30.md"
+  },
+  "schema_v02_pending_fields": [
+    "breed_work_type",
+    "breed_origin_language",
+    "household_type",
+    "shelter_days",
+    "recording_series_id",
+    "emotional_baseline_label",
+    "recording_direction"
+  ],
+  "weekly_calendar": {
+    "2026-07-27": {"pilar": "Viral", "status": "publicado"},
+    "2026-07-28": {"pilar": "Adopcion", "status": "publicado"},
+    "2026-07-29": {"pilar": "Educacion", "status": "publicado"},
+    "2026-07-30": {"pilar": "Ciencia", "status": "publicado"},
+    "2026-07-31": {"pilar": "Viral", "status": "pendiente"},
+    "2026-08-01": {"pilar": "Adopcion", "status": "pendiente"},
+    "2026-08-02": {"pilar": "Comunidad", "status": "pendiente"}
+  }
+}

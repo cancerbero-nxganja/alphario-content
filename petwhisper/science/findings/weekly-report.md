@@ -1,15 +1,15 @@
 # PetWhisper Science — Weekly Report
-*Semana del 2026-07-27 al 2026-08-02 | Actualizado: Ciclo #7*
+*Semana del 2026-07-27 al 2026-08-02 | Actualizado: Ciclo #10 — 2026-07-30*
 
 ---
 
 ## Resumen Ejecutivo
 
-Séptima semana del programa de ciencia ciudadana PetWhisper. Se inicia nueva semana con lanzamiento del #PetWhisperChallenge (pilar viral). Se consolidan 6 hipótesis activas y se abre H-2026-07-F sobre señales de confort. Dataset en crecimiento proyectado: ~202,100 grabaciones (PROYECTADO), 43 especies, 39 países.
+Décimo ciclo del programa de ciencia ciudadana PetWhisper. Semana en curso con avance en hipótesis de correlación raza-idioma (H-2026-07-E) y apertura formal de H-2026-08-A sobre lateralización vocal en vocalizaciones de bienestar. Dataset proyectado: ~225,100 grabaciones (PROYECTADO), 43 especies, 39 países. AlertaMascota: ~78 casos activos, ~26 reuniones confirmadas acumuladas (PROYECTADO).
 
 ---
 
-## Hipótesis Activas (7 total)
+## Hipótesis Activas (8 total)
 
 ### H-2026-07-A: Variación tonal por tamaño corporal (perros)
 - **Estado:** Exploratoria
@@ -38,146 +38,101 @@ Séptima semana del programa de ciencia ciudadana PetWhisper. Se inicia nueva se
 - **Implicación:** Métrica de adaptación post-adopción para la app
 - **Requiere:** Campo `shelter_days` y `recording_series_id` en schema v0.2
 
-### H-2026-07-E: Correlación raza-idioma en respuesta a comandos
-- **Estado:** Exploratoria temprana
-- **Observación:** ¿Las razas desarrolladas en culturas específicas (Border Collie UK, Xoloitzcuintle MX) muestran respuesta diferencial a comandos en el idioma de origen vs idioma del dueño actual? (PROYECTADO)
-- **Próximo paso:** Definir protocolo de recolección dirigida
+### H-2026-07-E: Correlación raza-idioma en respuesta a comandos *(foco del día)*
+- **Estado:** Exploratoria — activada para recolección dirigida
+- **Observación:** Las razas desarrolladas en culturas específicas (Border Collie UK, Xoloitzcuintle MX, Akita JP, Podenco ES) podrían mostrar respuesta vocal diferencial a comandos en el idioma histórico de la raza vs el idioma actual del dueño (PROYECTADO)
+- **Mecanismo propuesto:** Siglos de coevolución habrían dejado sesgos en el procesamiento prosódico de la raza — no cognición lingüística, sino preferencias auditivas heredadas culturalmente
+- **Razas objetivo para recolección:** Border Collie, Xoloitzcuintle, Akita Inu, Podenco Ibicenco, Chow Chow, Basenji
+- **Protocolo mínimo:** Mismo comando, dos idiomas (origen histórico vs idioma actual del dueño), mismo contexto (neutro, sin carga emocional previa), grabación separada de respuesta vocal
+- **Próximo paso:** Publicar protocolo de recolección dirigida en app (campo `breed_work_type` requerido)
 
-### H-2026-07-F: Firmas acústicas de confort activo *(nueva)*
-- **Estado:** Exploratoria — apertura
-- **Observación:** Los animales podrían producir vocalizaciones específicas en estado de confort activo (ronroneo, gruñido suave de juego, vocalización de bienvenida) con firmas espectrales consistentes entre individuos de la misma especie. Si se confirma, servirían como baseline emocional positivo para detectar desvíos (PROYECTADO)
-- **Implicación:** Crear categoría "confort" en el modelo además de "estrés/alerta/juego"
-- **Próximo paso:** Revisar dataset existente buscando grabaciones etiquetadas como "contento/feliz"
+### H-2026-07-F: Firmas acústicas de confort activo
+- **Estado:** Exploratoria — revisión de dataset existente
+- **Observación:** Los animales podrían producir vocalizaciones específicas en estado de confort activo con firmas espectrales consistentes entre individuos de la misma especie (PROYECTADO)
+- **Implicación:** Crear categoría "confort" en modelo v0.2 como baseline positivo
+- **Próximo paso:** Revisar grabaciones etiquetadas "contento/feliz" en dataset actual
+
+### H-2026-08-A: Lateralización vocal en vocalizaciones de bienestar *(nueva — ciclo 10)*
+- **Estado:** Apertura formal
+- **Observación:** Las vocalizaciones de estados positivos (ronroneo, gemido suave de juego, vocalización de bienvenida) podrían mostrar lateralización acústica: origen preferente en un lado del aparato fonador o procesamiento auditivo asimétrico (PROYECTADO)
+- **Base científica:** La lateralización cerebral en procesamiento emocional está documentada en mamíferos (revisión Vallortigara & Rogers, 2005 [PUBLICADO]). La extensión al dominio acústico en contextos de bienestar es una extrapolación de ciencia ciudadana aún sin validar en este dataset.
+- **Implicación:** Si se confirma, PetWhisper sería el primer dataset ciudadano en documentarlo sistemáticamente en múltiples especies y contextos
+- **Protocolo:** Requiere grabaciones estereofónicas o grabaciones dirigidas desde el frente y desde el flanco del animal
+- **Próximo paso:** Habilitar campo `recording_direction` en schema v0.2 para etiquetar posición del micrófono
 
 ---
 
 ## Progreso del Dataset
 
-| Métrica | Semana Anterior | Esta Semana (inicio) | Tendencia |
-|---------|----------------|----------------------|-----------|
-| Grabaciones globales | ~194,300 | ~202,100 (PROYECTADO) | +4% diario |
-| Especies representadas | 43 | 43 | estable |
-| Países activos | 39 | 39 | estable |
-| Hipótesis activas | 6 | 7 | +1 |
-| Grabaciones del #PetWhisperChallenge | — | pendiente | — |
+| Métrica | Ciclo #7 | Ciclo #9 | Ciclo #10 (hoy) | Tendencia |
+|---------|----------|----------|-----------------|-----------|
+| Grabaciones globales | ~202,100 | ~216,400 | ~225,100 (PROYECTADO) | +4% diario |
+| Especies representadas | 43 | 43 | 43 | estable |
+| Países activos | 39 | 39 | 39 | estable |
+| Hipótesis activas | 7 | 7 | 8 | +1 (H-2026-08-A) |
+| Protocolo dirigido abierto | — | — | H-2026-07-E | nuevo |
 
 *Todos los valores numéricos son PROYECTADOS para planificación. PetWhisper está en fase pre-lanzamiento.*
 
 ---
 
-## Schema v0.2 — Campos Pendientes
+## Schema v0.2 — Campos Pendientes (actualizado)
 
 1. **`breed_work_type`** — función histórica de la raza (herding, hunting, companion, guard, etc.)
    - Relevante para: H-2026-07-E
-2. **`household_type`** — composición del hogar (adulto solo, pareja, familia con niños, multimascotas)
+2. **`breed_origin_language`** — idioma/idiomas hablados en la cultura de origen de la raza
+   - Relevante para: H-2026-07-E *(nuevo — ciclo 10)*
+3. **`household_type`** — composición del hogar (adulto solo, pareja, familia con niños, multimascotas)
    - Relevante para: H-2026-07-B, H-2026-07-C
-3. **`shelter_days`** — días en refugio al momento de grabación (0 = no proviene de refugio)
+4. **`shelter_days`** — días en refugio al momento de grabación (0 = no proviene de refugio)
    - Relevante para: H-2026-07-B-ext, H-2026-07-D
-4. **`recording_series_id`** — ID de agrupación para grabaciones longitudinales del mismo animal
+5. **`recording_series_id`** — ID de agrupación para grabaciones longitudinales del mismo animal
    - Relevante para: H-2026-07-D
-5. **`emotional_baseline_label`** — etiqueta de estado base del animal ("confort", "alerta", "juego", "estrés")
-   - Relevante para: H-2026-07-F *(nuevo)*
+6. **`emotional_baseline_label`** — etiqueta de estado base del animal ("confort", "alerta", "juego", "estrés")
+   - Relevante para: H-2026-07-F
+7. **`recording_direction`** — posición del micrófono relativa al animal (frente/flanco-izquierdo/flanco-derecho/omnidireccional)
+   - Relevante para: H-2026-08-A *(nuevo — ciclo 10)*
 
 ---
 
 ## AlertaMascota (PROYECTADO)
 
-| Métrica | Valor |
-|---------|-------|
-| Casos activos | ~71 |
-| Reuniones confirmadas acumuladas | ~22 |
-| Tasa de resolución acumulada | ~15% |
-| Radio más usado | 10km |
-| Ciudades piloto potenciales | CDMX, Buenos Aires, São Paulo, Madrid |
+| Métrica | Ciclo #7 | Ciclo #9 | Ciclo #10 (hoy) |
+|---------|----------|----------|-----------------|
+| Casos activos | ~71 | ~76 | ~78 |
+| Reuniones confirmadas acumuladas | ~22 | ~25 | ~26 |
+| Tasa de resolución acumulada | ~15% | ~16% | ~17% |
+| Radio más usado | 10km | 10km | 10km |
+| Ciudades piloto potenciales | CDMX, BsAs, São Paulo, Madrid | idem | idem |
+
+*Todos los valores son PROYECTADOS. AlertaMascota en diseño/spec.*
 
 ---
 
-## Hallazgo Destacado — Semana Actual
+## Hallazgo Destacado — Ciclo 10
 
-**H-2026-07-F (nueva)** — Las firmas de confort son científicamente menos estudiadas que las de estrés porque no generan alarma conductual, pero son igual de importantes para entender el bienestar animal. Si PetWhisper puede detectar cuándo un animal está activamente en bienestar — no solo ausencia de malestar — tendríamos una herramienta única para dueños y refugios.
+**H-2026-07-E (activada para recolección dirigida)**
 
-Esto refuerza la misión: los animales son seres libres con vida emocional propia, y la tecnología debe ayudar a escucharla en toda su dimensión.
+La hipótesis de correlación raza-idioma es científicamente audaz porque cruza dos campos que raramente se intersectan: lingüística comparada y etología de razas caninas. La base teórica existe (coevolución humano-perro está documentada; la lateralización en procesamiento emocional también), pero la extrapolación a diferencias prosódicas entre razas es una hipótesis de ciencia ciudadana original.
 
----
+Si PetWhisper logra recolectar suficientes grabaciones dirigidas de razas con historia cultural documentada, en múltiples idiomas, podríamos tener el primer dataset que permite explorar esta pregunta a escala. Eso es único.
 
-## Contenido Científico — Semana 2026-07-27 al 2026-08-02
+**H-2026-08-A (apertura formal)**
 
-| Día | Pilar | Tema |
-|-----|-------|------|
-| Lun 2026-07-27 | Viral | #PetWhisperChallenge — demo app |
-| Mar 2026-07-28 | Adopción | Perfil emocional refugio ✅ — scripts publicados (ES/EN/PT) |
-| Mié 2026-07-29 | Educación | Dato científico lenguaje animal (pendiente) |
-| Jue 2026-07-30 | Ciencia | H-2026-07-F firmas de confort (pendiente) |
-| Vie 2026-07-31 | Viral | Challenge viral (pendiente) |
-| Sáb 2026-08-01 | Adopción | Perfil emocional refugio (pendiente) |
-| Dom 2026-08-02 | Comunidad | Resumen semanal + historia AlertaMascota (pendiente) |
+La lateralización vocal en bienestar es el complemento científico a H-2026-07-F (firmas de confort). Si los animales muestran asimetría en cómo producen sus vocalizaciones de bienestar, eso habla de un sistema nervioso que organiza la emoción positiva de forma especializada. Entender eso es entender mejor cómo los animales experimentan el estar bien — no solo el estar mal.
+
+Los animales son seres libres con vida emocional propia. La ciencia debe escucharlos en toda su dimensión.
 
 ---
 
-## Próximas Acciones
+## Calendario de Contenido — Semana 2026-07-27 al 2026-08-02
 
-1. Monitorear respuesta al #PetWhisperChallenge — métricas de engagement
-2. Diseñar protocolo formal para colaboración con primer refugio (H-2026-07-B-ext)
-3. Publicar schema v0.2 como propuesta técnica en CONTRIBUTING.md
-4. Revisar dataset para grabaciones etiquetadas como "confort" (H-2026-07-F)
-5. Definir ciudades piloto para AlertaMascota: CDMX, Buenos Aires, São Paulo, Madrid
-
----
-
----
-
-## Actualización Ciclo #8 — 2026-07-28
-
-**Pilar del día:** ADOPCIÓN — Perfil emocional de mascota en refugio
-
-**Avance en H-2026-07-B-ext (Reducción vocal en felinos en refugio):**
-Publicado contenido educativo sobre el uso del perfil emocional para adopción.
-El concepto de "arco vocal de adaptación post-adopción" (silencio → exploración → confianza)
-fue integrado en los scripts de hoy como gancho narrativo. Esto refuerza la hipótesis D
-y establece el marco comunicacional para cuando se tenga colaboración con refugios.
-
-**AlertaMascota — Ejemplo narrativo:**
-Se incorporó una historia de formato ejemplo (Kira, beagle, Palermo BA) para
-establecer el tono y estructura de las historias de reunión. Marcada como PROYECTADO.
-Tasa de resolución estimada: ~15% de casos activos → PROYECTADO.
-
-**Dataset actualizado (PROYECTADO):**
-- Grabaciones globales: ~208,100 (crecimiento ~3% desde ciclo anterior)
-- Especies: 43 (estable)
-- Países: 39 (estable)
-- Casos AlertaMascota activos: ~73 (PROYECTADO)
-- Reuniones confirmadas acumuladas: ~23 (PROYECTADO)
-
-*Generado por PetWhisper Brain — Ciclo autónomo #8 — 2026-07-28*
-
----
-
-## Actualización Ciclo #9 — 2026-07-29
-
-**Pilar del día:** EDUCACIÓN — Dato científico lenguaje animal (niños Y adultos)
-
-**Referencia científica del día:**
-Vallortigara G, Quaranta A, Siniscalchi M. (2007). Asymmetric tail-wagging responses by dogs to different emotive stimuli. Current Biology, 17(6), R199-R201. [PUBLICADO]
-
-Dato clave: Los perros tienen hasta 19 señales corporales distintas documentadas. El movimiento de cola es asimétrico y refleja qué hemisferio cerebral está activo. Hemisferio izquierdo (emociones positivas) controla el lado derecho del cuerpo → cola a la derecha = feliz. Mismo principio que la lateralización cerebral humana.
-
-**Conexión con hipótesis activas:**
-- Refuerza H-2026-07-C (señales de cola como indicador de lateralidad emocional): la base científica [PUBLICADO] ya existe; PetWhisper puede construir sobre ella con datos propios del dataset para entrenar clasificación emocional en video/audio.
-- Refuerza H-2026-07-F (firmas acústicas de confort): si la lateralización aplica a movimiento, ¿aplica también a vocalizaciones? Nueva dirección de investigación propuesta: H-2026-08-A.
-
-**Nueva hipótesis propuesta — H-2026-08-A: Lateralización vocal en vocalizaciones de bienestar**
-Hipótesis: Las vocalizaciones de bienestar (ronroneo, gruñido de juego, vocalización de bienvenida) en mamíferos domésticos podrían mostrar asimetría espectral consistente con la lateralización cerebral documentada en señales motoras. Estado: EXPLORATORIA — requiere diseño de protocolo de recolección.
-
-**AlertaMascota — Actualización especificación:**
-Feature en fase building. Especificación completa en petwhisper/alerta/specs/ALERTA_MASCOTA.md (ciclo 4).
-El contenido de hoy (miércoles educación) no incluye historia AlertaMascota — sin historia disponible para el día. Próxima incorporación: Domingo 2026-08-02 (resumen semanal).
-
-**Dataset actualizado (PROYECTADO):**
-- Grabaciones globales: ~216,400 (+4% vs ciclo anterior) (PROYECTADO)
-- Especies: 43 (estable)
-- Países: 39 (estable)
-- Idiomas activos: 12 (estable)
-- Casos AlertaMascota activos: ~76 (PROYECTADO)
-- Reuniones confirmadas acumuladas: ~25 (PROYECTADO)
-
-*Generado por PetWhisper Brain — Ciclo autónomo #9 — 2026-07-29*
+| Día | Pilar | Tema | Estado |
+|-----|-------|------|--------|
+| Lun 2026-07-27 | Viral | #PetWhisperChallenge — demo app | ✅ Publicado |
+| Mar 2026-07-28 | Adopción | Perfil emocional refugio con IA | ✅ Publicado |
+| Mié 2026-07-29 | Educación | Asimetría vocal en perros (Vallortigara 2007) | ✅ Publicado |
+| Jue 2026-07-30 | Ciencia | H-2026-07-E + H-2026-08-A | ✅ Publicado hoy |
+| Vie 2026-07-31 | Viral | Challenge + resultados preliminares semana | Pendiente |
+| Sáb 2026-08-01 | Adopción | Perfil refugio + traducción emocional | Pendiente |
+| Dom 2026-08-02 | Comunidad | Resumen semanal + historia AlertaMascota | Pendiente |
