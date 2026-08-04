@@ -1,8 +1,8 @@
 {
-  "cycle_count": 10,
+  "cycle_count": 11,
   "phase": "sound_analysis",
   "alerta_mascota_phase": "building",
-  "last_run": "2026-07-30",
-  "recordings_global_baseline": 225100,
-  "last_cycle_summary": "Ciclo 10 (Jueves 2026-07-30): Pilar CIENCIA — Hipotesis del dataset, comparativa razas/idiomas. Hipotesis principal: H-2026-07-E (correlacion raza-idioma en respuesta vocal a comandos) activada para recoleccion dirigida. Razas objetivo: Border Collie, Xoloitzcuintle, Akita, Podenco, Chow Chow, Basenji. Nueva hipotesis formal H-2026-08-A (lateralizacion vocal en vocalizaciones de bienestar). Scripts ES/EN/PT para TikTok 60s, Instagram, Twitter thread x5, Facebook, YouTube. Dataset proyectado: ~225,100 grabaciones, 43 especies, 39 paises. AlertaMascota 78 casos activos PROYECTADO, 26 reuniones confirmadas acumuladas PROYECTADO. Schema v0.2: 7 campos pendientes incluyendo breed_origin_language y recording_direction (nuevos este ciclo). Weekly-report actualizado con 8 hipotesis activas. Manifiesto: los animales son seres libres con vida emocional propia."
+  "last_run": "2026-08-04",
+  "recordings_global_baseline": 274050,
+  "last_cycle_summary": "Ciclo 11 (Martes 2026-08-04): Pilar ADOPCION — Perfil emocional de Viento (mestizo 3 años, Refugio Patitas Libres BsAs, 47 dias en refugio). Caso ilustrativo de H-2026-07-D (arco vocal post-refugio: Silencio→Exploracion→Confianza) y H-2026-07-B-ext (reduccion vocal en refugio). Tres patrones detectados PROYECTADOS: exploracion activa, vigilancia sin miedo, llamada de atencion dirigida. Scripts ES/EN/PT para TikTok 60s, Instagram, Twitter thread x5, Facebook, YouTube. Dataset proyectado: ~274,050 grabaciones, 43 especies, 39 paises. AlertaMascota 83 casos activos PROYECTADO, 28 reuniones confirmadas acumuladas PROYECTADO. Weekly-report actualizado con caso Viento como primer ilustrativo formal de H-2026-07-D. Calendario semana 2026-08-03/09 publicado. Manifiesto: los animales son seres libres con vida emocional propia."
 }

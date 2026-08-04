@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-04",
+  "cycle": 11,
+  "recordings_global": 274050,
+  "recordings_note": "PROYECTADO — crecimiento 4% diario desde baseline ciclo #10 (225,100 en 2026-07-30)",
+  "species": 43,
+  "countries": 39,
+  "model_version": "v0.1-pre",
+  "latest_finding": {
+    "hypothesis": "H-2026-07-D",
+    "title": "Arco vocal post-refugio: Silencio → Exploración → Confianza",
+    "summary": "Perfil de Viento (Refugio Patitas Libres, BsAs, 47 días) muestra transición entre fase de silencio y fase de exploración activa. Consistente con H-2026-07-D sobre ciclo vocal como predictor de adaptación. Datos PROYECTADOS.",
+    "status": "exploratory"
+  },
+  "languages_active": ["es", "en", "pt"],
+  "alerta_mascota_active_cases": 83,
+  "alerta_mascota_reunions_confirmed_cumulative": 28,
+  "alerta_mascota_resolution_rate_pct": 18,
+  "alerta_mascota_phase": "building",
+  "alerta_mascota_note": "Valores PROYECTADOS. AlertaMascota en diseño/spec. Siempre gratuito.",
+  "content_pillar_today": "adopcion",
+  "content_animal_today": "Viento — mestizo 3 años, Refugio Patitas Libres, Buenos Aires (perfil compuesto, PROYECTADO)",
+  "hypotheses_active": 8,
+  "schema_pending_fields": 7,
+  "weekly_report_updated": true,
+  "generated_by": "PetWhisper Brain autonomous cycle"
+}
