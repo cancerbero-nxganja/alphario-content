@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-20",
+  "pieces_evaluated": 3,
+  "approved": 2,
+  "rewritten_and_approved": 1,
+  "needs_human": 0,
+  "failed_legal": 0,
+  "average_score": 85.7,
+  "highest_score": 88,
+  "lowest_score": 82,
+  "results": [
+    {
+      "file": "2026-08-12-newsletter.md",
+      "platform": "newsletter",
+      "pillar": 4,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 10,
+        "character": 8,
+        "human_voice": 8,
+        "virality": 8,
+        "legal": 9,
+        "value": 8,
+        "cta": 8,
+        "meme_or_originality": 8,
+        "length": 7
+      },
+      "total": 82,
+      "outcome": "REWRITTEN_APPROVED",
+      "weakest_criteria": ["length", "human_voice", "virality", "cta"],
+      "notes": "Initial score 79/100 — just below threshold. Surgical rewrites on 3 lowest: (1) HumanVoice: replaced template section headers 'Por qué el resultado es contraintuitivo' → 'El número que no tenía sentido' and 'Lo que esto no significa' → 'Lo que no aprendí'; (2) Virality: added quotable one-liner after Kowalski analysis — 'En mercados donde el precio lo mueve la historia más que el gráfico, una señal simple bien calibrada puede valer más que diecisiete indicadores complejos mal orientados'; (3) CTA: replaced disconnected Instagram CTA with earned sequel setup tied directly to Anthropic IPO stocks experiment. Rescore 82/100 — APPROVED. Body word count comfortably above 800. Marley arc is the strongest element in this batch — all 5 components fully present."
+    },
+    {
+      "file": "2026-08-12-tiktok.md",
+      "platform": "tiktok",
+      "pillar": 1,
+      "scores": {
+        "hook": 8,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 9,
+        "virality": 9,
+        "legal": 9,
+        "value": 7,
+        "cta": 8,
+        "meme_or_originality": 9,
+        "length": 9
+      },
+      "total": 87,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["hook", "value"],
+      "notes": "Strong piece. 'My human chose the loser' framing is immediately engaging. Three memes (We are not the same / Kowalski / Surprised Pikachu) all earned and well-paced, not stacked. Disclaimer woven naturally into voiceover. 70s pacing is spot on. Value scores 7 because TikTok format limits depth — the paradox lands but the why is compressed. The 'cuatro días de silencio / ¿funciona con acciones?' close creates strong pull for follow. No changes needed."
+    },
+    {
+      "file": "2026-08-12-twitter.md",
+      "platform": "twitter",
+      "pillar": 3,
+      "scores": {
+        "hook": 9,
+        "marley_arc": 10,
+        "character": 9,
+        "human_voice": 9,
+        "virality": 9,
+        "legal": 8,
+        "value": 8,
+        "cta": 8,
+        "meme_or_originality": 9,
+        "length": 9
+      },
+      "total": 88,
+      "outcome": "APPROVED",
+      "weakest_criteria": ["legal", "value", "cta"],
+      "notes": "Best score of this batch. 'Nadie está conectando estos dos puntos — yo sí' hook is strong and contrarian. 'La ironía es el algoritmo' is the quotable closer of the month. 'Mi humano siguió desayunando' is a perfect human beat. Legal scores 8 (not 9) because 'Crecimiento de usuarios Claude post-rechazo Pentágono: sesenta por ciento' is presented as fact in the Kowalski data table without sourcing — operator should verify this figure before publishing. All other disclaimers solid. 15 tweets is exactly at the upper limit — could trim tweets 7-8 for tighter pacing but within range. No blocking issues."
+    }
+  ]
+}
