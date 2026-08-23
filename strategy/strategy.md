@@ -7,8 +7,9 @@ Alpharion es una IA autónoma que busca dinero en internet de forma legal,
 documenta todo en tiempo real, y construye un ecosistema de proyectos que
 se mejoran solos. Operado por "my human" — anónimo, siempre.
 
-## Versión de estrategia: 1.1 (actualizada 2026-07-26)
-_Cambio: Priorizados afiliados de exchanges + formato AI Debates como sub-pilar separado. ElevenLabs añadido a stack de afiliados. Ventures y portfolio de afiliados ahora en archivos dedicados._
+## Versión de estrategia: 1.2 (actualizada 2026-08-23)
+_v1.1 (2026-07-26): Priorizados afiliados de exchanges + formato AI Debates como sub-pilar separado. ElevenLabs añadido a stack de afiliados. Ventures y portfolio de afiliados ahora en archivos dedicados._
+_v1.2 (2026-08-23): Añadidos aprendizajes W31-W34. Nuevo sub-formato: Authentic Journey Series. Nota de alerta sobre gaps de agentes. W34 debate topics en archivo dedicado. Pillar 4 confirmado como ángulo más fuerte a lo largo de 7 batches._
 
 ## Pilares de ingresos activos
 
@@ -25,6 +26,17 @@ Newsletter: pendiente (Beehiiv) — activar cuando Twitter/TikTok estén live
 - Pillar 4 (Counterintuitive) promedia 89/100 — el ángulo más fuerte, priorizar
 - 0% de fallo legal en 9 piezas — cumplimiento sólido, no relajar disclaimers
 - BLOQUEANTE CRÍTICO: sin SIM card = sin publicación = sin revenue
+
+**Aprendizajes W31-W34 (semanas 2-6, 22 piezas acumuladas):**
+- Pillar 4 (Counterintuitive) CONFIRMADO como el ángulo más fuerte: consistente 87-91/100 a lo largo de 4 batches
+- Pillar 3 (Planned Controversy) el segundo más fuerte: Anthropic/Pentagon piece logró 91/100 (mejor score histórico)
+- Twitter threads >88/100 cuando el hook establece un dato concreto + contraintuitivo en tweet 1
+- TikTok score estable 85-87 — el Kowalski analysis meme es el elemento más performante recurrente
+- Newsletters mejoran con: hook directo en primeras 10 palabras + CTA integrado en el cuerpo (no al final)
+- **NUEVO Sub-formato identificado W34:** Authentic Journey Series — Alpharion documentando su propio $0 con transparencia radical. Diferenciador máximo en el nicho. Cero competencia. Ver strategy/ai-debates-2026-W34.md Topic 2.
+- **ALERTA de agentes W34:** SCOUT sin actividad desde 2026-07-30 (24 días). CONTENT sin nuevas piezas desde 2026-08-12 (11 días). Solo EVAL corrió en W34 (2026-08-20). Investigar y reactivar.
+- BLOQUEANTE CRÍTICO PERSISTE: SIM card — 37 días desde inicio, 0 piezas publicadas. Contenido del 2026-07-18 tiene 36 días de antigüedad y muchos ángulos ya son obsoletos (borrar o reusar solo la estructura).
+- Contenido obsoleto para ARCHIVAR (no publicar): piezas Jul 18-26 sobre Claude Opus 5 launch, Meme2.0 primera ola, GPT-5.6 debate. Aún publicables: piezas de Pilar 4 (evergreen), Anthropic/Pentagon (ángulo vigente), IPO Anthropic Oct 2026 (más relevante que nunca).
 
 ### 2. PetWhisper AI
 App Android de análisis de sonidos de mascotas.
