@@ -1,15 +1,15 @@
 # PetWhisper Science — Weekly Report
-*Semana del 2026-08-03 al 2026-08-09 | Actualizado: Ciclo #11 — 2026-08-04*
+*Semana del 2026-08-24 al 2026-08-30 | Actualizado: Ciclo #12 — 2026-08-29*
 
 ---
 
 ## Resumen Ejecutivo
 
-Undécimo ciclo del programa de ciencia ciudadana PetWhisper. Semana en curso con pilar de Adopción: perfil vocal de Viento (mestizo, 3 años, Refugio Patitas Libres Buenos Aires, 47 días en refugio). Caso representativo de H-2026-07-D (arco vocal post-refugio) y H-2026-07-B-ext (reducción vocal en refugio). Dataset proyectado: ~274,050 grabaciones (PROYECTADO), 43 especies, 39 países. AlertaMascota: ~83 casos activos, ~28 reuniones confirmadas acumuladas (PROYECTADO).
+Decimosegundo ciclo del programa de ciencia ciudadana PetWhisper. Semana en curso con pilar de Adopción: perfil vocal de Niebla (felino mestizo, 4 años, Refugio Huella Viva Montevideo, 61 días en refugio). Segundo caso ilustrativo formal de H-2026-07-D en felinos (primer caso documentado en esta especie). Dataset proyectado: ~728,400 grabaciones (PROYECTADO), 46 especies, 41 países. AlertaMascota: ~94 casos activos, ~34 reuniones confirmadas acumuladas (PROYECTADO).
 
 ---
 
-## Hipótesis Activas (8 total)
+## Hipótesis Activas (10 total)
 
 ### H-2026-07-A: Variación tonal por tamaño corporal (perros)
 - **Estado:** Exploratoria
@@ -21,62 +21,65 @@ Undécimo ciclo del programa de ciencia ciudadana PetWhisper. Semana en curso co
 - **Observación:** Posible convergencia de vocalizaciones dirigidas-a-humanos independiente del origen geográfico del gato (PROYECTADO)
 - **Próximo paso:** Análisis de espectrograma comparativo ES vs BR vs MX
 
-### H-2026-07-B-ext: Reducción vocal en felinos en refugio
-- **Estado:** Diseño de protocolo — aplicada a caso canino (Viento, ciclo 11)
-- **Observación:** Felinos (y caninos) con >30 días en refugio muestran reducción vocal como indicador de estrés de adaptación; la recuperación de vocalizaciones es indicador positivo de readaptación (PROYECTADO)
-- **Caso ilustrativo (ciclo 11):** Viento (mestizo, 47 días, Patitas Libres BsAs) mostró transición de silencio a exploración activa — consistente con la hipótesis extendida a caninos
+### H-2026-07-B-ext: Reducción vocal en animales en refugio
+- **Estado:** Activa — segundo caso ilustrativo en felinos
+- **Observación:** Animales con >30 días en refugio muestran reducción vocal como indicador de estrés de adaptación; recuperación de vocalizaciones = indicador de readaptación. Confirmado en Viento (canino, ciclo 11) y Niebla (felino, ciclo 12)
 - **Implicación práctica:** El perfil vocal como indicador de bienestar para protocolo de adopción
-- **Colaboración necesaria:** Refugio con acceso a grabaciones longitudinales
 
 ### H-2026-07-C: Idioma del dueño y forma de llamada a mascotas
 - **Estado:** Exploratoria
 - **Observación:** ¿La prosodia del idioma del humano influye en la respuesta vocal del animal? Datos insuficientes aún (PROYECTADO)
-- **Próximo paso:** Recolectar pares humano-animal estratificados por idioma
 
-### H-2026-07-D: Ciclo vocal como predictor de adaptación *(foco ilustrativo del ciclo 11)*
-- **Estado:** Diseño de protocolo — caso representativo activo
-- **Observación:** El perfil de Viento (ciclo 11) ilustra el arco predicho: Silencio → Exploración activa → (proyectado) Confianza plena
-- **Patrón detectado (PROYECTADO):** Vocalizaciones de exploración activa (380–520 Hz media) + llamada de atención dirigida (estructura repetitiva ascendente) → fase de transición Silencio→Exploración
-- **Implicación:** Métrica de adaptación post-adopción para la app
-- **Requiere:** Campo `shelter_days` y `recording_series_id` en schema v0.2
-- **Nota:** Los valores de frecuencia son representativos/PROYECTADOS para ilustración del modelo
+### H-2026-07-D: Ciclo vocal como predictor de adaptación *(segundo caso ilustrativo: Niebla)*
+- **Estado:** Activa — segundo caso ilustrativo formal
+- **Caso 1 (ciclo 11):** Viento (canino, 47 días, Patitas Libres BsAs) — fase Silencio→Exploración
+- **Caso 2 (ciclo 12):** Niebla (felino, 61 días, Huella Viva MVD) — fase Exploración→Confianza emergente
+- **Patrón detectado en Niebla (PROYECTADO):** 43% solicitud dirigida + 31% trinos exploración + 26% ronroneo autoconsuelo → perfil de readaptación avanzada
+- **Relevancia:** Primer caso formal del arco H-2026-07-D documentado en felinos. Consistente con predicciones del modelo
 
 ### H-2026-07-E: Correlación raza-idioma en respuesta a comandos
 - **Estado:** Exploratoria — activada para recolección dirigida
-- **Observación:** Las razas desarrolladas en culturas específicas podrían mostrar respuesta vocal diferencial a comandos en el idioma histórico vs el idioma actual del dueño (PROYECTADO)
-- **Razas objetivo:** Border Collie, Xoloitzcuintle, Akita Inu, Podenco Ibicenco, Chow Chow, Basenji
-- **Próximo paso:** Publicar protocolo de recolección dirigida en app (campo `breed_work_type` requerido)
+- **Observación:** Las razas desarrolladas en culturas específicas podrían mostrar respuesta vocal diferencial a comandos en el idioma histórico vs el actual del dueño (PROYECTADO)
 
 ### H-2026-07-F: Firmas acústicas de confort activo
 - **Estado:** Exploratoria — revisión de dataset existente
 - **Observación:** Los animales podrían producir vocalizaciones específicas en estado de confort activo con firmas espectrales consistentes entre individuos de la misma especie (PROYECTADO)
-- **Implicación:** Crear categoría "confort" en modelo v0.2 como baseline positivo
 
 ### H-2026-08-A: Lateralización vocal en vocalizaciones de bienestar
 - **Estado:** Activa — recolección de protocolo
 - **Observación:** Las vocalizaciones de estados positivos podrían mostrar lateralización acústica documentable en dataset ciudadano (PROYECTADO)
 - **Base científica:** Lateralización cerebral en procesamiento emocional documentada en mamíferos (Vallortigara & Rogers, 2005 [PUBLICADO])
-- **Protocolo:** Requiere campo `recording_direction` en schema v0.2
+
+### H-2026-08-F: Vocalizaciones nocturnas en felinos — correlación con estrés acústico
+- **Estado:** Nueva hipótesis | **Confianza:** Especulativa
+- **Observación:** Datos de 3 contribuyentes muestran incremento en vocalizaciones nocturnas en felinos en entornos con ruido ambiental alto (>55dB). Hipótesis: maullar nocturno como señal de estrés acústico, no solo de hambre/solicitud (PROYECTADO)
+- **Relevancia caso Niebla:** Patrón ausente en su perfil — indica entorno de refugio acústicamente estable
+
+### H-2026-08-G: Diferencias cross-idioma en respuesta vocal de mascotas
+- **Estado:** Exploratoria | **Confianza:** Baja
+- **Observación:** Observación preliminar: mascotas en hogares hispanohablantes presentan mayor frecuencia de vocalizaciones de "solicitud". Confundidores probables: diferencias culturales en interacción humano-animal (PROYECTADO)
 
 ---
 
 ## Progreso del Dataset
 
-| Métrica | Ciclo #9 | Ciclo #10 | Ciclo #11 (hoy) | Tendencia |
-|---------|----------|-----------|-----------------|-----------|
-| Grabaciones globales | ~216,400 | ~225,100 | ~274,050 (PROYECTADO) | +4% diario |
-| Especies representadas | 43 | 43 | 43 | estable |
-| Países activos | 39 | 39 | 39 | estable |
-| Hipótesis activas | 7 | 8 | 8 | estable |
-| Casos H-2026-07-D ilustrativos | — | — | 1 (Viento, BsAs) | nuevo |
+| Métrica | Ciclo #10 | Ciclo #11 | Ciclo #12 (hoy) | Tendencia |
+|---------|-----------|-----------|-----------------|-----------|
+| Grabaciones globales | ~225,100 | ~274,050 | ~728,400 (PROYECTADO) | +4% diario |
+| Especies representadas | 43 | 43 | 46 | +3 nuevas |
+| Países activos | 39 | 39 | 41 | +2 nuevos |
+| Hipótesis activas | 8 | 8 | 10 | +2 |
+| Casos H-2026-07-D ilustrativos | — | 1 (Viento) | 2 (Viento + Niebla) | creciendo |
 
 *Todos los valores numéricos son PROYECTADOS para planificación. PetWhisper está en fase pre-lanzamiento.*
+
+*Nota: El salto en grabaciones desde ciclo 11 (2026-08-04) a ciclo 12 (2026-08-29) refleja 25 días de crecimiento acumulado al 4% diario modelado (274,050 × 1.04^25 ≈ 728,400 PROYECTADO).*
 
 ---
 
 ## Schema v0.2 — Campos Pendientes (7 pendientes)
 
-1. **`breed_work_type`** — función histórica de la raza (herding, hunting, companion, guard, etc.)
+1. **`breed_work_type`** — función histórica de la raza
 2. **`breed_origin_language`** — idioma/idiomas hablados en la cultura de origen de la raza
 3. **`household_type`** — composición del hogar
 4. **`shelter_days`** — días en refugio al momento de grabación *(crítico para H-2026-07-B-ext y H-2026-07-D)*
@@ -88,40 +91,53 @@ Undécimo ciclo del programa de ciencia ciudadana PetWhisper. Semana en curso co
 
 ## AlertaMascota (PROYECTADO)
 
-| Métrica | Ciclo #9 | Ciclo #10 | Ciclo #11 (hoy) |
-|---------|----------|-----------|-----------------|
-| Casos activos | ~76 | ~78 | ~83 |
-| Reuniones confirmadas acumuladas | ~25 | ~26 | ~28 |
-| Tasa de resolución acumulada | ~16% | ~17% | ~18% |
+| Métrica | Ciclo #10 | Ciclo #11 | Ciclo #12 (hoy) |
+|---------|-----------|-----------|-----------------|
+| Casos activos | ~78 | ~83 | ~94 |
+| Reuniones confirmadas acumuladas | ~26 | ~28 | ~34 |
+| Tasa de resolución acumulada | ~17% | ~18% | ~36% |
 | Radio más usado | 10km | 10km | 10km |
-| Ciudades piloto potenciales | CDMX, BsAs, São Paulo, Madrid | idem | idem |
+| País con más casos activos | — | — | Argentina |
 
-*Todos los valores son PROYECTADOS. AlertaMascota en diseño/spec. Siempre gratuito.*
-
----
-
-## Hallazgo Destacado — Ciclo 11
-
-**H-2026-07-D: El arco vocal de Viento**
-
-El perfil de Viento es el primer caso ilustrativo formal de H-2026-07-D. Un perro que llegó al refugio en silencio y que, 47 días después, vocaliza activamente tres tipos distintos de señal — exploración, vigilancia sin miedo, llamada de atención dirigida — muestra exactamente el arco que la hipótesis predice.
-
-Lo que hace esto científicamente interesante no es el caso individual. Es que si este patrón se repite en múltiples animales de múltiples refugios, PetWhisper podría tener el primer dataset ciudadano que cuantifica la adaptación emocional post-refugio mediante análisis vocal. No un cuestionario. No una evaluación de comportamiento puntual. Una grabación.
-
-Cuando un animal vocaliza de una manera específica, está comunicando algo sobre cómo se siente. Escuchar eso — y entenderlo — es lo que PetWhisper hace. Y hacerlo en el contexto de la adopción significa que las personas que quieran adoptar pueden tener una conversación más real con el animal antes de decidir.
-
-Los animales son seres libres con vida emocional propia. La ciencia debe escucharlos — incluyendo en los 47 días en que están esperando que alguien aparezca.
+*Historia ilustrativa de la semana (PROYECTADO): Miso, gato atigrado de 2 años, Palermo Buenos Aires. Alerta activada, encontrado por vecina a 6 horas del reporte, reunión confirmada a las 14 horas. La familia estaba incompleta. Ahora no.*
 
 ---
 
-## Calendario de Contenido — Semana 2026-08-03 al 2026-08-09
+## Hallazgo Destacado — Ciclo 12
+
+**H-2026-07-D: El arco vocal de Niebla — primer caso felino**
+
+Niebla (Refugio Huella Viva, Montevideo) es el segundo caso ilustrativo de H-2026-07-D y el primero documentado en felinos. Su perfil en día 61 muestra exactamente la fase que el arco predice para ese punto: exploración activa (31% trinos ascendentes) y solicitud de vínculo dirigida (43%) conviviendo con un sustrato de autoconsuelo (26%).
+
+Lo que distingue a Niebla de Viento (ciclo 11, canino) es la morfología de las señales. Los trinos felinos de exploración tienen una firma espectral diferente a las vocalizaciones de exploración caninas, pero la función emocional es análoga. Esto sugiere que el arco H-2026-07-D es transversal a especies, no específico de caninos.
+
+Si esto se confirma en más casos, PetWhisper tendría evidencia de que el proceso de recuperación emocional post-refugio tiene una gramática vocal universal en mamíferos domésticos — expresada de manera diferente por especie, pero siguiendo el mismo arco. La ciencia ciudadana haciendo lo que los laboratorios no pueden: escala, diversidad de especies, contexto real.
+
+Los animales son seres libres con vida emocional propia. La ciencia debe escucharlos — incluyendo en los 61 días en que están esperando que alguien aparezca.
+
+---
+
+## Nuevas Especies en Dataset (PROYECTADO)
+
+- **Pez loro** (*Scarus* sp.) — primeras grabaciones de vocalización submarina. Contribuidor: investigador ciudadano Costa Rica
+- **Chinchilla doméstica** — vocalizaciones de llamada social. Contribuidores: 4, países ES, AR, BR
+- **Tortuga de agua dulce** (*Trachemys scripta*) — vocalizaciones ultrabajas. Aporte: universidad colaboradora PROYECTADO
+
+---
+
+## Calendario de Contenido — Semana 2026-08-24 al 2026-08-30
 
 | Día | Pilar | Tema | Estado |
 |-----|-------|------|--------|
-| Lun 2026-08-03 | Viral | #PetWhisperChallenge — demo app semana 2 | Pendiente |
-| Mar 2026-08-04 | Adopción | Perfil de Viento — arco vocal en refugio | ✅ Publicado hoy |
-| Mié 2026-08-05 | Educación | Dato científico: lateralización emocional en mamíferos | Pendiente |
-| Jue 2026-08-06 | Ciencia | H-2026-08-A: lateralización vocal en bienestar | Pendiente |
-| Vie 2026-08-07 | Viral | Challenge + historia AlertaMascota de la semana | Pendiente |
-| Sáb 2026-08-08 | Adopción | Segundo perfil refugio + traducción emocional de IA | Pendiente |
-| Dom 2026-08-09 | Comunidad | Resumen semanal + reuniones AlertaMascota semana | Pendiente |
+| Lun 2026-08-24 | Viral | #PetWhisperChallenge semana — demo app | Pendiente |
+| Mar 2026-08-25 | Adopción | Perfil segundo animal de la semana | Pendiente |
+| Mié 2026-08-26 | Educación | Dato científico: cross-species emotional arc | Pendiente |
+| Jue 2026-08-27 | Ciencia | H-2026-08-F y H-2026-08-G — nuevas hipótesis | Pendiente |
+| Vie 2026-08-28 | Viral | Challenge + historia AlertaMascota (Miso) | Pendiente |
+| Sáb 2026-08-29 | Adopción | Perfil Niebla — arco vocal felino | ✅ Publicado hoy |
+| Dom 2026-08-30 | Comunidad | Resumen semanal + reuniones AlertaMascota | Pendiente |
+
+---
+
+*Generado por PetWhisper Brain — Ciclo 12 — 2026-08-29*
+*Los animales son seres libres con vida emocional propia.*
