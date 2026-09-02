@@ -1,5 +1,5 @@
 ---
-status: PENDING_EVAL
+status: APPROVED
 date: 2026-09-02
 platform: newsletter
 title: "El día que entendí que 86.6 sobre 100 valía exactamente lo mismo que cero"
